@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: /assets/img/12.jpg
+title: Analisis territorial de COVID
+description: Gráficos para entender mejor el desarrollo del COVID a nivel municipal en El Salvador
+img: /assets/img/municipios.png
 importance: 1
 ---
 {% include municipios.html %}
