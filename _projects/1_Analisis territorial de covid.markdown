@@ -2,17 +2,28 @@
 layout: page
 title: Análisis territorial de COVID
 description: Gráficos para entender mejor el desarrollo del COVID a nivel municipal en El Salvador
-img: /assets/img/municipios.png
+img: /assets/img/mapa_covid_casos.png
 importance: 1
----
-## Casos por semana 
 
+---
+## Casos por 100 mil habitantes 
+{% include mapa_covid.html %}
+<div class="caption">
+    Gobierno de El Salvador (2020). Casos de COVID-19 en El Salvador. Obtenido de: https://covid19.gob.sv/  
+</div>
+
+
+## Casos por semana 
 {% include municipios2.html %}
 {% include municipios3.html %}
 <div class="caption">
-    Municipios con más número de casos acumulados. 
+    Gobierno de El Salvador (2020). Casos de COVID-19 en El Salvador. Obtenido de: https://covid19.gob.sv/  
 </div>
 
-## Evolución de casos acumulados
+
+## Evolución de casos acumulados 
 {% include municipios_line.html %}
 {% include municipios_line_per_capita.html %}
+<div class="caption">
+    Gobierno de El Salvador (2020). Casos de COVID-19 en El Salvador. Obtenido de: https://covid19.gob.sv/  
+</div>
