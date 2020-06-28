@@ -7,7 +7,12 @@ importance: 1
 ---
 ## Casos por semana 
 
-{% include municipios.html %}
+{% include municipios2.html %}
+{% include municipios3.html %}
 <div class="caption">
     Municipios con más número de casos acumulados. 
 </div>
+
+## Evolución de casos acumulados
+{% include municipios_line.html %}
+{% include municipios_line_per_capita.html %}

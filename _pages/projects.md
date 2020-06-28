@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Proyectos
+title: projects
 permalink: /projects/
 description: Usando la ciencia de datos para mejorar la toma decisiones de políticas públicas.
 nav: true
