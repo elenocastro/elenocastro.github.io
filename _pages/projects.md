@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: Usando la ciencia de datos para mejorar la toma decisiones de políticas públicas.
+title: charts
+permalink: /charts/
+description: Interactive graphics to develop your own conclusions about social problems
 nav: true
 ---
 

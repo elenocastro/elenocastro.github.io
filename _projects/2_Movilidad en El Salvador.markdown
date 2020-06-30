@@ -8,7 +8,7 @@ importance: 2
 ---
 {% include iadb_congestion.html %}
 <div class="caption">
-    inter-American Development Bank "Coronavirus Impact Dashboard - Traffic Congestion ".
+    Inter-American Development Bank "Coronavirus Impact Dashboard - Traffic Congestion ".
 https://www.iadb.org/en/topics-effectiveness-improving-lives/coronavirus-impact-dashboard
 </div>
 
