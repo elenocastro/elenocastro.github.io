@@ -5,11 +5,9 @@
 title: Eleno Castro
 email: elenohernan@hotmail.com
 description: > # this means to ignore newlines until "url:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Salvadoran economist | Master in Public Administration in International Development Candidate at Harvard University
 footer_text: >
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+  
 
 url: # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
@@ -48,7 +46,7 @@ research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Send me an email
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
@@ -56,8 +54,8 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_name: Eleno Castro  # your blog must have a name for it to show up in the nav bar
+blog_description: '"The value of an idea lies in the using of it" - Thomas Edison'
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -65,7 +63,7 @@ pagination:
   enabled: true
 
 # Comments
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: Eleno Catro # put your disqus shortname
 
 # -----------------------------------------------------------------------------
 # Collections
