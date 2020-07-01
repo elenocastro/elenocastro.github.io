@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Análisis territorial de COVID
-description: Gráficos para entender mejor el desarrollo del COVID a nivel municipal en El Salvador
+title: Casos de COVID a nivel municipal en El Salvador 
+description: 
 img: /assets/img/mapa_covid_casos.png
 importance: 1
 

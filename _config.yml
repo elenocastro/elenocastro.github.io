@@ -54,7 +54,7 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Eleno Castro  # your blog must have a name for it to show up in the nav bar
+blog_name: Eleno's Blog  # your blog must have a name for it to show up in the nav bar
 blog_description: '"The value of an idea lies in the using of it" - Thomas Edison'
 permalink: /blog/:year/:title/
 

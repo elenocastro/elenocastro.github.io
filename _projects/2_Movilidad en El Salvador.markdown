@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Movilidad en El Salvador
-description: Gráficos comparativos de movilidad
+title: Movilidad en tiempos de COVID en El Salvador
+description:
 img: /assets/img/2_movilidad.png
 importance: 2
 
