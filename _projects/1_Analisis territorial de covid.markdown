@@ -12,6 +12,7 @@ importance: 1
     Gobierno de El Salvador (2020). Casos de COVID-19 en El Salvador. Obtenido de: https://covid19.gob.sv/  
 </div>
 
+***
 
 ## Casos por semana 
 {% include municipios2.html %}
@@ -20,9 +21,12 @@ importance: 1
     Gobierno de El Salvador (2020). Casos de COVID-19 en El Salvador. Obtenido de: https://covid19.gob.sv/  
 </div>
 
+***
 
 ## Evolución de casos acumulados 
+<br/>
 {% include municipios_line.html %}
+<br/>
 {% include municipios_line_per_capita.html %}
 <div class="caption">
     Gobierno de El Salvador (2020). Casos de COVID-19 en El Salvador. Obtenido de: https://covid19.gob.sv/  
