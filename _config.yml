@@ -35,8 +35,8 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # -----------------------------------------------------------------------------
 
 github_username: # your GitHub user name
-twitter_username: # your Twitter handle
-linkedin_username: # your LinkedIn user name
+twitter_username: elenocastro # your Twitter handle
+linkedin_username: elenocastro # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
@@ -46,7 +46,7 @@ research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
 
 contact_note: >
-  Send me an email
+  Send me an email or follow me on my social media
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
@@ -60,7 +60,7 @@ permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
-  enabled: true
+  enabled: True
 
 # Comments
 disqus_shortname: Eleno Catro # put your disqus shortname
