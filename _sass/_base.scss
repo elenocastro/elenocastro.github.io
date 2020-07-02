@@ -182,7 +182,8 @@ footer.sticky-bottom {
   padding-bottom: 5rem;
   h1 {
     color: $theme-color;
-    font-size: 4rem;
+    // tamaño del nombre del blog
+    font-size: 1rem;
   }
 }
 
@@ -232,16 +233,20 @@ footer.sticky-bottom {
 
 .projects {
   .grid-item {
-    width: 250px;
+    // tamaño de la tarjeta
+    width: 375px;
     margin-bottom: 10px;
+    
     a {
-      color: black;
+      color:  black;
+      
       text-decoration: none;
       &:hover {
         color: $theme-color;
       }
       // formato del texto en la pagina de proyectos
       text-align: left;
+      
     }
   }
   .card img {
