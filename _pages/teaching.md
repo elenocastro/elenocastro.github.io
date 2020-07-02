@@ -16,3 +16,6 @@ nav: True
 ##### <i class="fas fa-file-csv"></i> [Time series of cases by age](https://elenocastro.github.io/databases/covid_el_salvador/covid_el_salvador_age_timeserie.csv)
 ##### <i class="fas fa-file-csv"></i> [Time series of cases by gender](https://elenocastro.github.io/databases/covid_el_salvador/covid_el_salvador_sex_timeserie.csv)
 ##### <i class="fas fa-file-csv"></i> [Time series of cases by municipality](https://elenocastro.github.io/databases/covid_el_salvador/covid_el_salvador_municipios_timeserie.csv)
+
+<ul>
+Data of municipalities collected since: 01/May/20. 

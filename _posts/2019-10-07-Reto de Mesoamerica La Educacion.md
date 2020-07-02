@@ -3,7 +3,6 @@ layout: distill
 title: "El reto de Mesoamérica: la educación"
 description: Alrededor del 68% de los empleos en Mesoamérica están en riesgo de automatizarse en el 2020. ¿Están los países preparados para enfrentar este nuevo reto? Y aún más importante, ¿están capacitados los jóvenes para convivir con la inteligencia artificial y tener vidas productivas en entornos altamente dinámicos?
 date: 2019-10-07
-comments: True
 
 authors:
   - name: Karla Abrego
@@ -40,6 +39,8 @@ _styles: >
         <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/reto_mesoamerica.jpg">
     </div>
 </div>
+
+<br/>
 
 En Mesoamérica, los jóvenes representan la mayor parte de la población (los menores de 19 años representan más del 40%) y una buena proporción de ellos ya no están en el sistema educativo. Aproximadamente el 36% de adolescentes entre 16 a 18 años no asiste a la escuela y la mitad de los más pobres abandona su educación secundaria antes de graduarse. De los jóvenes que abandonan la escuela, el 32% lo hace por [falta de interés](https://publications.iadb.org/es/nota-cima-16-cuales-son-los-principales-retos-educativos-de-mesoamerica) en continuar con su educación.
 

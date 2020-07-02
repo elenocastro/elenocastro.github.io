@@ -148,6 +148,7 @@ a, table.table a {
 // Footer
 
 footer.fixed-bottom {
+  text-align: center;
   color: lighten($grey-color, 25%);
   background-color: $grey-color-dark;
   font-size: 0.75rem;
@@ -181,7 +182,7 @@ footer.sticky-bottom {
   padding-bottom: 5rem;
   h1 {
     color: $theme-color;
-    font-size: 5rem;
+    font-size: 4rem;
   }
 }
 
@@ -239,6 +240,8 @@ footer.sticky-bottom {
       &:hover {
         color: $theme-color;
       }
+      // formato del texto en la pagina de proyectos
+      text-align: left;
     }
   }
   .card img {

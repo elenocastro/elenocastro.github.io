@@ -3,7 +3,6 @@ layout: distill
 title: De la educación no se come
 description: Una de las razones por las que muchos niños y niñas no asisten a la escuela, puede ser sorprendente pero desafortunadamente es cierta.
 date: 2018-09-07
-comments: True
 
 authors:
   - name: Eleno Castro
@@ -36,6 +35,8 @@ _styles: >
         <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/educacion_no_come.jpg">
     </div>
 </div>
+
+<br/>
 
 Karlita vive en una zona rural en Pasaquina en el departamento de La Unión en El Salvador. A los 7 años fue por primera vez a la escuela, la edad de inicio de la educación básica en el país. En su primer año le ha costado aprender y sus padres, al ver que no aprovechó, deciden retirarla de la escuela. Sus padres ven también la situación de sus vecinos, cuyos hijos, Juan y Ana, a pesar de haberse graduado de secundaria y haberse esforzado mucho por encontrar trabajo aún no lo han logrado.
 
