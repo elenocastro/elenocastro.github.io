@@ -29,6 +29,14 @@ _styles: >
   }
 
 ---
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/post_3/python_logo.png">
+    </div>
+</div>
+
+Python es un lenguaje muy versatil que permite manejar datos y hacer visualizaciones de todo tipo. Si eres nuevo te recomiendo descargar el paquete de [Anaconda](https://www.anaconda.com/products/individual) y utilizar Jupyter como procesador de texto para ir viendo las gráficas a medida vas escribiendo el código.
+
 
 ## Preparando las librerías y las datos a utilizar
 Primero importaremos las librerías que necesitamos para trabajar la información. Utilizaremos Pandas que es una librería para manejar datos, especialmente dataframes y series. Esta librería viene integrada con Anaconda.
