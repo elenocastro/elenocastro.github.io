@@ -63,7 +63,7 @@ pagination:
   enabled: True
 
 # Comments
-disqus_shortname: Eleno Catro # put your disqus shortname
+disqus_shortname: # put your disqus shortname
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -109,6 +109,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll/scholar
   - jemoji
+  - jekyll-redirect-from
   # - bootstrap
   # - material-sass
 

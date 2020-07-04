@@ -3,6 +3,7 @@ layout: distill
 title: De la educación no se come
 description: Una de las razones por las que muchos niños y niñas no asisten a la escuela, puede ser sorprendente pero desafortunadamente es cierta.
 date: 2018-09-07
+redirect_to: https://blogs.iadb.org/educacion/es/delaeducacionnosecome/
 
 authors:
   - name: Eleno Castro
