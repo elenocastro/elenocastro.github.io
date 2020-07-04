@@ -3,6 +3,7 @@ layout: distill
 title: "El reto de Mesoamérica: la educación"
 description: Alrededor del 68% de los empleos en Mesoamérica están en riesgo de automatizarse en el 2020. ¿Están los países preparados para enfrentar este nuevo reto? Y aún más importante, ¿están capacitados los jóvenes para convivir con la inteligencia artificial y tener vidas productivas en entornos altamente dinámicos?
 date: 2019-10-07
+redirect_to: https://blogs.iadb.org/educacion/es/educacionmesoamerica/
 
 authors:
   - name: Karla Abrego
