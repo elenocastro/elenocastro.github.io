@@ -6,14 +6,14 @@ description: Master in Public Administration in International Development Candid
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.jpeg
   
 
 news: False
 social: true
 ---
 
-I am a salvadoran economist, currently a candidate for the [Master in Public Administration in International Development](https://www.hks.harvard.edu/educational-programs/masters-programs/master-public-administration-international-development) where I was selected as Presidential Scholar at Harvard University, previously I studied my [Bachelor of Economics and Business at Escuela Superior de Economia y Negocios (ESEN)](https://www.esen.edu.sv/licenciatura-en-economia-y-negocios/) where I received the Scholarship for Academic Excellence from the Poma Foundation and graduated as Magna Cum Laude. I worked as economic consultant at the Inter-American Development Bank and the Millennium Challenge Corporation at FOMILENIO II.
+I am a salvadoran economist, currently a candidate for the [Master in Public Administration in International Development](https://www.hks.harvard.edu/educational-programs/masters-programs/master-public-administration-international-development) where I was selected as Presidential Scholar at Harvard University, previously I studied my [Bachelor of Economics and Business at Escuela Superior de Economia y Negocios (ESEN)](https://www.esen.edu.sv/licenciatura-en-economia-y-negocios/) where I received the Scholarship for Academic Excellence from the Poma Foundation and graduated as Magna Cum Laude. I have worked as economic consultant at the Inter-American Development Bank and the Millennium Challenge Corporation at FOMILENIO II.
 
 ***
 
