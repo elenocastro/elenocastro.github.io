@@ -63,7 +63,7 @@ pagination:
   enabled: True
 
 # Comments
-disqus_shortname: # put your disqus shortname
+disqus_shortname: Eleno Castro
 
 # -----------------------------------------------------------------------------
 # Collections
