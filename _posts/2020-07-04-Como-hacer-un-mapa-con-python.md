@@ -3,7 +3,7 @@ layout: distill
 title: Como crear un gráfico de mapa en Python usando Geopandas
 description: Un tutorial para principiantes que esten iniciando a programar en Python para el manejo y visulización de datos. 
 date: 2020-07-04
-
+comments: true
 
 authors:
   - name: Eleno Castro
