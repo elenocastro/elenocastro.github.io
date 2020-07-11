@@ -6,7 +6,7 @@ description: Master in Public Administration in International Development Candid
 
 profile:
   align: right
-  image: prof_pic.jpeg
+  image: prof_pic3.jpeg
   
 
 news: False
