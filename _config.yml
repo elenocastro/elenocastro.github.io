@@ -63,7 +63,7 @@ pagination:
   enabled: True
 
 # Comments
-disqus_shortname: elenocastro
+disqus_shortname: https-elenocastro-github-io
 
 # -----------------------------------------------------------------------------
 # Collections
