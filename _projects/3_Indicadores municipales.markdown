@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Indicadores sociales a nivel municipal: Una mirada a 10 años de desarrollo"
+title: "Evolución de indicadores sociales a nivel municipal en El Salvador"
 description: 
 img: /assets/img/project_3.png
 importance: 3
@@ -14,35 +14,42 @@ He utilizado de solo los municipios que cuentan con una muestra representativa d
 
 {% include project_3/scatter_plot_municipios.html %}
 <div class="caption">
-    Dirección General de Estadística y Censo de El Salvador (2010 - 2019). Encuesta de Hogares de Propósitos Múltiples.
+    Dirección General de Estadística y Censo de El Salvador (2010 - 2018). Encuesta de Hogares de Propósitos Múltiples.
+</div>
+
+***
+
+{% include project_3/pobreza_2010_2018.html %}
+<div class="caption">
+    Dirección General de Estadística y Censo de El Salvador (2010 - 2018). Encuesta de Hogares de Propósitos Múltiples.
 </div>
 
 ***
 
 {% include project_3/ingreso_promedio_municipio.html %}
 <div class="caption">
-    Dirección General de Estadística y Censo de El Salvador (2010 - 2019). Encuesta de Hogares de Propósitos Múltiples.
+    Dirección General de Estadística y Censo de El Salvador (2010 - 2018). Encuesta de Hogares de Propósitos Múltiples.
 </div>
 
 ***
 
 {% include project_3/mejores_municipios_ingresos.html %}
 <div class="caption">
-    Dirección General de Estadística y Censo de El Salvador (2010 - 2019). Encuesta de Hogares de Propósitos Múltiples.
+    Dirección General de Estadística y Censo de El Salvador (2010 - 2018). Encuesta de Hogares de Propósitos Múltiples.
 </div>
 
 ***
 
 {% include project_3/escolaridad_promedio.html %}
 <div class="caption">
-    Dirección General de Estadística y Censo de El Salvador (2010 - 2019). Encuesta de Hogares de Propósitos Múltiples.
+    Dirección General de Estadística y Censo de El Salvador (2010 - 2018). Encuesta de Hogares de Propósitos Múltiples.
 </div>
 
 ***
 
 {% include project_3/empleo_formal.html %}
 <div class="caption">
-    Dirección General de Estadística y Censo de El Salvador (2010 - 2019). Encuesta de Hogares de Propósitos Múltiples.
+    Dirección General de Estadística y Censo de El Salvador (2010 - 2018). Encuesta de Hogares de Propósitos Múltiples.
 </div>
 
 ***
