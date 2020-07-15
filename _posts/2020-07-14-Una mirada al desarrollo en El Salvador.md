@@ -3,7 +3,7 @@ layout: distill
 title: "Desarrollo social en El Salvador: una mirada municipal"
 description: A contrario de lo que muchos opinan El Salvador ha tenido avances en los últimos años sin embargo el desarrollo ha sido heterogéneo entre los municipios.
 date: 2020-07-14
-comments: False
+comments: true
 
 authors:
   - name: Eleno Castro
