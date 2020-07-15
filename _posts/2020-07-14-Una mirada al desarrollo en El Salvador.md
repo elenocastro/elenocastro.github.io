@@ -57,7 +57,7 @@ Por otro lado, El Salvador si ha logrado disminuir la pobreza y ha mantenido una
     World development indicators. Washington, D.C. :The World Bank.
 </div>
 
-La desigualdad medida por el GINI también ha caído en El Salvador de forma admirable frente a todos los países de la región, El Salvador mantienen un indicador de 8 puntos más bajo que Nicaragua (el segundo más bajo de Centroamérica). Esto podría explicar porque a pesar del modesto crecimiento económico si ha logrado disminuir los niveles más extremos de pobreza<d-cite key="WDI"></d-cite>. 
+La desigualdad medida por el [GINI](https://es.wikipedia.org/wiki/Coeficiente_de_Gini) también ha caído en El Salvador de forma admirable frente a todos los países de la región, El Salvador mantienen un indicador de 8 puntos más bajo que Nicaragua (el segundo más bajo de Centroamérica). Esto podría explicar porque a pesar del modesto crecimiento económico si ha logrado disminuir los niveles más extremos de pobreza<d-cite key="WDI"></d-cite>. 
 
 {% include post_5/gini_wb.html %}
 <div class="caption">
