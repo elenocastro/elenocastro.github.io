@@ -88,17 +88,21 @@ Luego se debe unir la información a través de un [merge](https://pandas.pydata
 
 <d-code block language="python">
   acc_auto = acc_auto[acc_auto['Año']==2019]
-  shapefile = shapefile.merge(acc_auto, left_on='NA2', 
-                              right_on='Municipio',how='left')
+  shapefile = shapefile.merge(
+                       right = acc_auto,
+                       left_on = 'NA2',
+                       right_on = 'Municipio',
+                       how = 'left'
+                       )
 </d-code>
 
 ***
 ## Utilizando Geopandas
-Usar Geopandas es sumamente fácil y está bastante bien integrado con [Matplotlib](https://matplotlib.org/). Necesitamos para hacer un simple mapa escribir .plot(column='variable').
+Usar Geopandas es sumamente fácil y está bastante bien integrado con [Matplotlib](https://matplotlib.org/). Necesitamos para hacer un simple mapa escribir .plot(column = 'variable').
 
 
 <d-code block language="python">
-  shapefile.plot(column= 'CHOQUE' )
+  shapefile.plot(column = 'CHOQUE')
 </d-code>
 
 <div class="row mt-3">
@@ -111,11 +115,15 @@ Usar Geopandas es sumamente fácil y está bastante bien integrado con [Matplotl
 Podemos continuar añadir atributos al mapa para que se vea mejor como una legenda horizontal y con una barra de color de distintos niveles de Naranjas ('Oranges').
 
 <d-code block language="python">
-  shapefile.plot(column='CHOQUE', 
-              legend=True, 
-              legend_kwds={'label': "Número de choques de vehiculos",
-                             'orientation': "horizontal"},
-              cmap='Oranges')
+  shapefile.plot(
+              column = 'CHOQUE', 
+              legend = True, 
+              legend_kwds = {
+                'label': "Número de choques de vehiculos",
+                'orientation': "horizontal"
+                },
+              cmap = 'Oranges'
+              )
 </d-code>
 
 <div class="row mt-3">
@@ -141,11 +149,15 @@ Debido a que gran parte de los choques se concentran en algunas zonas específic
 Al correr nuevamente nuestro código anterior tendríamos un gráfico como el siguiente:
 
 <d-code block language="python">
-  shapefile.plot(column='CHOQUE_log', 
-              legend=True, 
-              legend_kwds={'label': "Número de choques de vehiculos",
-                             'orientation': "horizontal"},
-              cmap='Oranges')
+  shapefile.plot(
+              column = 'CHOQUE_log', 
+              legend = True, 
+              legend_kwds = {
+                'label': "Número de choques de vehiculos",
+                'orientation': "horizontal"
+                },
+              cmap = 'Oranges'
+              )
 </d-code>
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -166,18 +178,18 @@ import matplotlib.ticker as ticker
 
 
 #creando una figura en matplotlib y ajustando el tamaño deseado 
-fig , ax = plt.subplots(1,figsize=(14,8))
+fig , ax = plt.subplots(1 ,figsize = (14,8))
 
 
 
 shapefile.plot(
-  column='CHOQUE', 
-  legend=False, 
-  cmap='Oranges',
-  ax=ax,
+  column = 'CHOQUE', 
+  legend = False, 
+  cmap ='Oranges',
+  ax = ax,
   norm = mplc.LogNorm(), #utilizando el logaritmo de la variable
-  linewidth=1, #ajustando el grosor de las lineas del mapa
-  edgecolor='black' #color de las lineas del mapa
+  linewidth = 1, #ajustando el grosor de las lineas del mapa
+  edgecolor ='black' #color de las lineas del mapa
   )
 
 
@@ -189,21 +201,25 @@ vmax = shapefile.CHOQUE.max()
 #ajsutando posición y dimensiones de la barra
 cax = fig.add_axes([0.9, 0.2, 0.01, 0.6]) 
 #atributos de la barra de color
-sm = plt.cm.ScalarMappable(cmap='Oranges', 
-                           norm=mplc.LogNorm(vmin=vmin, vmax=vmax))
+sm = plt.cm.ScalarMappable(
+                      cmap = 'Oranges', 
+                      norm = mplc.LogNorm(vmin = vmin, vmax = vmax)
+                      )
 sm._A = []
 
 #OPCIONAL
 #formateando los números a absultos de lo contrario salieran a base 10 
 formatter = ticker.LogFormatter(10, labelOnlyBase=False) 
-cbr = fig.colorbar(sm, cax=cax, 
-                   format= formatter,
-                   ticks = [1,10,100])
+cbr = fig.colorbar(
+                  sm, 
+                  cax = cax, 
+                  format = formatter,
+                  ticks = [1,10,100]
+                  )
 
-ax.set_title('Número de choques en El Salvador',
-             fontsize= 25)
+ax.set_title('Número de choques en El Salvador', fontsize = 25)
 
-cbr.ax.tick_params(labelsize=15) #tamaño de letra de las legendas
+cbr.ax.tick_params(labelsize = 15) #tamaño de letra de las legendas
 
 ax.axis('off') #desactivando los ejes de posicionamiento
 
@@ -220,25 +236,28 @@ plt.show()
 En algunos casos nos interesaría colorear el mapa con valores categóricos. Para ello, dividiremos nuestra variable 'CHOQUE' en cuartiles a través de [pandas.cut](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.cut.html#:~:text=Use%20cut%20when%20you%20need,pre%2Dspecified%20array%20of%20bins.):
 
 <d-code block language="python">
+labels = ['Cuartil_1', 'Cuartil_2','Cuartil_3','Cuartil_4']
 
 #creando columna con variables categoricas a partir de 'CHOQUE'
-shapefile['CHOQUE_Cuartiles'] = pd.cut(shapefile['CHOQUE_log'],4, 
-              labels = ['Cuartil_1', 'Cuartil_2','Cuartil_3','Cuartil_4']
-              )
+shapefile['CHOQUE_Cuartiles'] = pd.cut(
+                        x = shapefile['CHOQUE_log'],
+                        bins = 4, 
+                        labels = labels
+                        )
 
 
 #utilizando matplotlib nuevamente
-fig , ax = plt.subplots(1,figsize=(14,8))
+fig , ax = plt.subplots(1, figsize = (14,8))
 
-#definiendo caracteristicas del mapa (categorical=True)
+#definiendo caracteristicas del mapa (categorical = True)
 shapefile.plot(
-  column='CHOQUE_Cuartiles', 
-  categorical=True, 
-  legend=True,
-  cmap='Oranges',
-  ax=ax,
-  linewidth=1,
-  edgecolor='black',
+  column = 'CHOQUE_Cuartiles', 
+  categorical = True, 
+  legend = True,
+  cmap = 'Oranges',
+  ax = ax,
+  linewidth = 1,
+  edgecolor = 'black',
   )
 
 
