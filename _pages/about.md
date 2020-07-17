@@ -17,6 +17,6 @@ I am a salvadoran economist, currently a candidate for the [Master in Public Adm
 
 ***
 
-Economista salvadoreño, candidato a la [Maestría en Administración Pública en Desarrollo Internacional](https://www.hks.harvard.edu/educational-programs/masters-programs/master-public-administration-international-development) y becario presidencial de la Universidad de Harvard. Graduado Magna Cum Laude en [Licenciatura de Economía y Negocios en la Escuela Superior de Economía y Negocios (ESEN)](https://www.esen.edu.sv/licenciatura-en-economia-y-negocios/) y becado a la Excelencia Académica por la Fundación Poma. He trabajado como consultor económico del Banco Interamericano de Desarrollo y de Millennium Challenge Corporation en FOMILENIO II. 
+Economista salvadoreño, candidato a la [Maestría en Administración Pública en Desarrollo Internacional](https://www.hks.harvard.edu/educational-programs/masters-programs/master-public-administration-international-development) y becario presidencial de la Universidad de Harvard. Graduado Magna Cum Laude en [Licenciatura de Economía y Negocios en la Escuela Superior de Economía y Negocios (ESEN)](https://www.esen.edu.sv/licenciatura-en-economia-y-negocios/) y becado a la Excelencia Académica por la Fundación Poma. He sido consultor económico del Banco Interamericano de Desarrollo y de Millennium Challenge Corporation en FOMILENIO II. 
 
 ***
