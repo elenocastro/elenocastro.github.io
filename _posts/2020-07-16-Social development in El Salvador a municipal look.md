@@ -30,7 +30,12 @@ _styles: >
 
 bibliography: 2020-07-14-Una-mirada-al-desarrollo-en-El-Salvador.bib
 ---
-
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/post_5.jpg">
+    </div>
+</div>
+<br/>
 Despite the great pessimism that people in El Salvador handle due to corruption problems and the lack of credibility of public institutions, the country has made progress in terms of social development in recent years.
 
 This is something that we must highlight and mention, especially to deny those people who assure us that we are worse than ever. There is no doubt that there is still a long way to go and that there are challenges that have not been met in the best way in recent years, but we can highlight some progress.
