@@ -9,6 +9,9 @@
       {{ page._styles }}
     </style>
     {% endif %}
+
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5f1285fa133eda00126e4805&product=sticky-share-buttons&cms=sop' async='async'></script>
+  
   </head>
 
   <d-front-matter>
@@ -87,19 +90,22 @@
   <d-bibliography src="{{ page.bibliography | prepend: '/assets/bibliography/' | relative_url }}">
   </d-bibliography>
 
-  {% if site.disqus_shortname and page.comments %}
-    <div id="disqus_thread"></div>
-    <script type="text/javascript">
-      var disqus_shortname  = '{{ site.disqus_shortname }}';
-      var disqus_identifier = '{{ page.id }}';
-      var disqus_title      = {{ page.title | jsonify }};
-      (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-      })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  {% endif %}
-
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+    <d-article>
+      {% if site.disqus_shortname and page.comments %}
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+          var disqus_shortname  = '{{ site.disqus_shortname }}';
+          var disqus_identifier = '{{ page.id }}';
+          var disqus_title      = {{ page.title | jsonify }};
+          (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      {% endif %}
+    </d-article>
+  </body>
 </html>
