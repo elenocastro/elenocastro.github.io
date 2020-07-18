@@ -47,7 +47,8 @@ Usualmente se señala que El Salvador ha tenido el peor desempeño económico de
 
 Los economistas para tomar en consideración este factor utilizan el crecimiento del PIB per cápita, pues no importa si el pastel se está haciendo más grande si ahora hay más personas para dividirlo. Cuando se considera este indicador, El Salvador lo ha hecho a un nivel muy similar a la región incluso por encima de países como Guatemala y Honduras<d-cite key="WDI"></d-cite>.
 
-{% include post_5/gdp_percapita.html %}
+#### Promedio de crecimiento del PIB per capita al 2019 (%)
+{% include post_5/gdp_percapita_eng.html %}
 <div class="caption">
     World development indicators. Washington, D.C. :The World Bank.
 </div>
@@ -65,7 +66,8 @@ Por otro lado, El Salvador si ha logrado disminuir la pobreza y ha mantenido una
 
 La desigualdad medida por el [GINI](https://es.wikipedia.org/wiki/Coeficiente_de_Gini) también ha caído en El Salvador de forma admirable frente a todos los países de la región, El Salvador mantienen un indicador de 8 puntos más bajo que Nicaragua (el segundo más bajo de Centroamérica). Esto podría explicar porque a pesar del modesto crecimiento económico si ha logrado disminuir los niveles más extremos de pobreza<d-cite key="WDI"></d-cite>. 
 
-{% include post_5/gini_wb.html %}
+#### Evolución de la desigualdad: GINI index
+{% include post_5/gini_wb_eng.html %}
 <div class="caption">
     World development indicators. Washington, D.C. :The World Bank.
 </div>
@@ -83,7 +85,8 @@ Mi objetivo no es responder a estas preguntas, pero si brindar un punto de parti
 Lo municipios han logrado bajar la pobreza como es de esperarse debido a la tendencia nacional. Los municipios que se mantienen a la cabeza son Antiguo Cuscatlán, San Salvador y Santa Tecla con 5%, 11% y 15% de pobreza respectivamente, seguidos por Mejicanos y Ayutuxtepeque.
 Algunos municipios en los que se destaca una disminución importante en los niveles de pobreza son: San Miguel, Nejapa, Santiago Nonualco, Ilopango y Sonsonate con una caída de al menos 15 puntos porcentuales en dichos municipios<d-cite key="EHPM"></d-cite>.
 
-{% include project_3/pobreza_2010_2018.html %}
+#### Nivel de pobreza, 2010 vs 2018
+{% include project_3/pobreza_2010_2018_eng.html %}
 <div class="caption">
     Dirección General de Estadística y Censo de El Salvador (2010 - 2018). Encuesta de Hogares de Propósitos Múltiples.
 </div>
@@ -92,14 +95,16 @@ Se observa un modesto crecimiento en el ingreso promedio<d-footnote>Ingreso del 
 
 Por otro lado, para el mismo periodo municipios como Antiguo Cuscatlán e Ilopango han tenido un incremento de casi <span>$</span>156 y <span>$</span>82 respectivamente. Antiguo Cuscatlán por su parte es un municipio con un nivel de ingreso muy superior a los demás, hace 10 años ya presentaba un ingreso promedio superior al Santa Tecla de hoy en día. Y la riqueza continua concentrandose en esta zona específicamente y la brecha con los otros municipios esta ampliándose.
 
-{% include project_3/ingreso_promedio_municipio.html %}
+#### Ingreso promedio por municipio, 2010 vs 2018
+{% include project_3/ingreso_promedio_municipio_eng.html %}
 <div class="caption">
     Dirección General de Estadística y Censo de El Salvador (2010 - 2018). Encuesta de Hogares de Propósitos Múltiples.
 </div>
 
 En Educación, municipios como Soyapango y San Salvador no han podido mejorar el nivel de escolarización de sus habitantes, presentando un incremento de tan solo 0.4 y 0.3 años de escolaridad entre 2010 y 2018. Antiguo Cuscatlán por otro lado, también lidera los mejores indicadores de escolarización del país, teniendo un incremento muy superior a otros municipios. Es el único municipio en el que sus habitantes tienen en promedio bachillerato completo (11 años de escolaridad). Otros municipios como Cuscatancingo, Cojutepeque y Santo Tomas también han tenido un incremento importante en la escolaridad de sus habitantes (1.5, 1.3 y 1.3 años respectivamente). Sin embargo, la mayoría de los municipios aún están muy lejos de tener una población con los años de educación obligatoria. 
 
-{% include project_3/escolaridad_promedio.html %}
+#### Escolaridad promedio, 2010 vs 2018
+{% include project_3/escolaridad_promedio_eng.html %}
 <div class="caption">
     Dirección General de Estadística y Censo de El Salvador (2010 - 2018). Encuesta de Hogares de Propósitos Múltiples.
 </div>
