@@ -20,7 +20,7 @@ _styles: >
     margin-bottom: 12px;
   }
   .fake-img p {
-    font-family: monospace;
+    font-family: Elephant;
     color: white;
     text-align: justify;
     margin: 12px 0;

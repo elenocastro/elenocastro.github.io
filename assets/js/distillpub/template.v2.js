@@ -2080,12 +2080,14 @@ d-appendix > distill-appendix {
 
   // import style from '../styles/d-byline.css';
 
+
+  // ENTRE H3 SE ENCONTRABA LA PALABRA AFFILIATIONS
   function bylineTemplate(frontMatter) {
     return `
   <div class="byline grid">
     <div class="authors-affiliations grid">
       <h3>Authors</h3>
-      <h3>Affiliations</h3>
+      <h3></h3>
       ${frontMatter.authors.map(author => `
         <p class="author">
           ${author.personalURL ? `

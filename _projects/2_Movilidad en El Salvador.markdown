@@ -1,11 +1,12 @@
 ---
-layout: page
+layout: page2
 title: Movilidad en tiempos de COVID en El Salvador
-description:
+description: Gráficos de serie de tiempo sobre movilidad en El Salvador a partir de datos de Google
 img: /assets/img/2_movilidad.png
 importance: 2
 
 ---
+***
 {% include iadb_congestion.html %}
 <div class="caption">
     Inter-American Development Bank "Coronavirus Impact Dashboard - Traffic Congestion ".

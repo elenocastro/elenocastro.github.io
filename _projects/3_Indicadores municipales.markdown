@@ -1,11 +1,12 @@
 ---
-layout: page
+layout: page2
 title: "Evolución de indicadores sociales a nivel municipal en El Salvador"
-description: 
+description: Gráficos de indicadores sociales en 2010 y 2018
 img: /assets/img/project_3.png
 importance: 3
 
 ---
+***
 
 Los indicadores han sido calculados a partir de las Encuestas de Hogares de Propósitos Múltiples de la Dirección General de Estadística y Censo de El Salvador. 
 
