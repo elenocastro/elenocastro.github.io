@@ -21,7 +21,7 @@ nav: true
         <img src="{{ project.img | relative_url }}" alt="project thumbnail">
         {% endif %}
         <div class="card-body">
-          <h4 class="card-title text">{{ project.title }}</h4>
+          <h4 class="card-title text" style="font-family:'Playfair Display', serif">{{ project.title }}</h4>
           <p class="card-text">{{ project.description }}</p>
           <div class="row ml-1 mr-1 p-0">
             {% if project.github %}
