@@ -13,7 +13,7 @@ Los indicadores han sido calculados a partir de las Encuestas de Hogares de Prop
 He utilizado de solo los municipios que cuentan con una muestra representativa dentro de las encuestas. Estos indicadores han sido poco utilizados para realizar análisis, espero dar ideas a futuros investigadores para que utilicen los datos.
 
 
-{% include project_3/scatter_plot_municipios.html %}
+{% include project_3/scatter_plot_municipios_ENG.html %}
 <div class="caption">
     Dirección General de Estadística y Censo de El Salvador (2010 - 2018). Encuesta de Hogares de Propósitos Múltiples.
 </div>

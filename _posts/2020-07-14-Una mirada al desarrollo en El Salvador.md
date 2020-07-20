@@ -48,7 +48,7 @@ Usualmente se señala que El Salvador ha tenido el peor desempeño económico de
 Los economistas para tomar en consideración este factor utilizan el crecimiento del PIB per cápita, pues no importa si el pastel se está haciendo más grande si ahora hay más personas para dividirlo. Cuando se considera este indicador, El Salvador lo ha hecho a un nivel muy similar a la región incluso por encima de países como Guatemala y Honduras<d-cite key="WDI"></d-cite>.
 
 #### Promedio de crecimiento del PIB per capita al 2019 (%)
-{% include post_5/gdp_percapita_eng.html %}
+{% include post_5/gdp_percapita.html %}
 <div class="caption">
     World development indicators. Washington, D.C. :The World Bank.
 </div>
