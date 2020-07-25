@@ -3,6 +3,7 @@ layout: page2
 title: Movilidad en tiempos de COVID en El Salvador
 description: Gráficos de serie de tiempo sobre movilidad en El Salvador a partir de datos de Google
 img: /assets/img/2_movilidad.png
+image: /assets/img/2_movilidad.png
 importance: 2
 
 ---

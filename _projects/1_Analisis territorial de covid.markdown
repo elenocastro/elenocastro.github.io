@@ -3,6 +3,7 @@ layout: page2
 title: Casos de COVID a nivel municipal en El Salvador 
 description: Una mirada en gráficos a la evolución de casos de COVID en El Salvador
 img: /assets/img/mapa_covid_casos.png
+image: /assets/img/mapa_covid_casos.png
 importance: 1
 
 ---

@@ -3,6 +3,7 @@ layout: page2
 title: "Evolución de indicadores sociales a nivel municipal en El Salvador"
 description: Gráficos de indicadores sociales en 2010 y 2018
 img: /assets/img/project_3.png
+image: /assets/img/project_3.png
 importance: 3
 
 ---
