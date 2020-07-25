@@ -9,26 +9,7 @@ authors:
   - name: Eleno Castro
     url: https://twitter.com/ElenoCastro
 
-img: /assets/img/post_5.jpg
-
-# Below is an example of injecting additional post-specific styles.
-# If you use this post as a template, delete this _styles block.
-_styles: >
-  .fake-img {
-    background: #bbb;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 12px;
-  }
-  .fake-img p {
-    font-family: Elephant;
-    color: white;
-    text-align: justify;
-    margin: 12px 0;
-    text-align: center;
-    font-size: 16px;
-  }
-
+image: "elenocastro.com/assets/img/post_5.jpg"
 bibliography: 2020-07-14-Una-mirada-al-desarrollo-en-El-Salvador.bib
 ---
 <div class="row mt-3">
