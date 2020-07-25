@@ -1,7 +1,7 @@
 ---
 layout: distill
 title: Como crear un gráfico de mapa en Python
-description: Un tutorial para principiantes que esten iniciando a programar en Python para el manejo y visulización de datos. 
+description: Un tutorial para principiantes en Python en el manejo y visulización de datos. 
 date: 2020-07-04
 comments: true
 
