@@ -42,7 +42,7 @@
 <!-- Twitter cards -->
 <meta name="twitter:site" content="@{{ site.twitter_username }}" />
 <meta name="twitter:creator" content="@{{ site.twitter_username }}" />
-<meta name="twitter:title" content="{{ page.title }}" />
+<meta name="twitter:title" content='{{ site.title }}{% if page.title and page.url != "/" %} | {{ page.title }}{% endif %}' />
 
 {% if page.description %}
 <meta name="twitter:description" content="{{ page.description }}" />
@@ -52,7 +52,7 @@
 
 {% if page.image %}
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="{{ site.url }}{{ page.image }}" />
+<meta name="twitter:image" content="https://www.elenocastro.com{{ page.image }}" />
 {% else %}
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:image" content="{{ site.image }}" />
