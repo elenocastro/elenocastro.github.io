@@ -9,6 +9,7 @@ authors:
   - name: Eleno Castro
     url: https://twitter.com/ElenoCastro
 
+img: /assets/img/post_5.jpg
 
 # Below is an example of injecting additional post-specific styles.
 # If you use this post as a template, delete this _styles block.

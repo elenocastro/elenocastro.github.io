@@ -10,7 +10,7 @@ importance: 3
 
 Los indicadores han sido calculados a partir de las Encuestas de Hogares de Propósitos Múltiples de la Dirección General de Estadística y Censo de El Salvador. 
 
-He utilizado de solo los municipios que cuentan con una muestra representativa dentro de las encuestas. Estos indicadores han sido poco utilizados para realizar análisis, espero dar ideas a futuros investigadores para que utilicen los datos.
+He utilizado solo los municipios que cuentan con una muestra representativa dentro de las encuestas. Estos indicadores han sido poco utilizados para realizar análisis, espero dar ideas a futuros investigadores para que utilicen los datos.
 
 
 {% include project_3/scatter_plot_municipios_ENG.html %}
