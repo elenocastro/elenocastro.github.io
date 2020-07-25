@@ -30,7 +30,13 @@
 <meta property="og:title" content='{{ site.title }}{% if page.title and page.url != "/" %} | {{ page.title }}{% endif %}' />
 <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}" />
 <meta property="og:description" content="{{ page.description }}" />
-<meta property="og:image" content="{{ page.image }}" />
+
+{% if page.image %}
+<meta property="og:image" content="{{ site.baseurl }}{{ page.image }}" />
+{else}
+<meta property="og:image" content="{{ site.image }}" />
+{% endif %}
+
 {% endif %}
 
 <!-- Twitter cards -->
@@ -38,7 +44,7 @@
 <meta name="twitter:creator" content="@{{ site.twitter_username }}">
 <meta name="twitter:title"   content="{{ page.title }}">
 
-{% if page.summary %}
+{% if page.description %}
 <meta name="twitter:description" content="{{ page.description }}">
 {% else %}
 <meta name="twitter:description" content="{{ site.description }}">
@@ -46,9 +52,9 @@
 
 {% if page.image %}
 <meta name="twitter:card"  content="summary_large_image">
-<meta name="twitter:image" content="{{ page.image }}">
+<meta name="twitter:image" content="{{ site.baseurl }}{{ page.image }}">
 {% else %}
 <meta name="twitter:card"  content="summary">
-<meta name="twitter:image" content="{{ site.title_image }}">
+<meta name="twitter:image" content="{{ site.image }}">
 {% endif %}
 <!-- end of Twitter cards -->
