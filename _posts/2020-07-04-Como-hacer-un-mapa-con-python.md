@@ -9,7 +9,7 @@ authors:
   - name: Eleno Castro
     url: https://twitter.com/ElenoCastro
 
-image: /assets/img/post_3/python_logo.png
+image: /assets/img/post_3/mapa_4.png
 
 ---
 <div class="row mt-3">
