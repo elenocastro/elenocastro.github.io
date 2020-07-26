@@ -9,10 +9,16 @@ authors:
   - name: Eleno Castro
     url: https://twitter.com/ElenoCastro
 
-image: /assets/img/post_7/homicidios_slv.png
+image: /assets/img/post_7/post_7.jpeg
 bibliography: 2020-07-25-es-sostenible-la-caida-de-homicidios.bib
 ---
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/post_7/post_7.jpeg">
+    </div>
+</div>
 
+<br/>
 <b>En el año 2019 El Salvador registró la tasa de homicidios más baja desde la guerra civil.</b> La tasa de homicidios por cien mil habitantes en El Salvador ha caído a 35 luego de alcanzar más de 100 en el 2015. Esta tasa es la más baja de las últimas décadas, superando incluso las tasas de homicidios en los años de la tregua entre pandillas en 2014. De continuar con la misma trayectoria el país podría tener una tasa incluso más baja que países como México, Guatemala y Colombia<d-cite key="WDI"></d-cite>. 
 
 <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/post_7/homicidios_slv.png">
@@ -36,7 +42,7 @@ Desde los gobiernos de Arena, la delincuencia se ha tratado como un problema de 
 
 <b>La expulsión de jóvenes del sistema educativo mantiene las estructuras criminales.</b> En El Salvador tan solo 2 de cada 10 salvadoreños que viven en pobreza termina la secundaria, además los que se mantienen en la escuela no logran los aprendizajes mínimos de acuerdo las pruebas nacionales (PAES)<d-cite key="CIMA10"></d-cite>. La expulsión de jóvenes en pobreza del sistema educativo provoca que un gran número ingresen a las estructuras criminales. El 87% de los pandilleros ingreso a la pandilla antes de los 17 años y el 60% antes de los 15. En cuanto a sus estudios el 94% de ellos no termino la escuela y tan solo el 22% estudio algún grado de secundaria<d-cite key="PANDILLAS"></d-cite>.  No es de admirarse que la escolaridad promedio de los pandilleros se ha mantenido igual en los últimos 10 años<d-cite key='CRUZCARRA'></d-cite>.
 
-<b>La inseguridad económica es otro factor que motiva a los jóvenes a ingresar a las pandillas.</b> La mayoría de los miembros están desempleados, el 70% proviene de hogares con ingresos familiares menores a $250<d-cite key="PANDILLAS"></d-cite>. El Salvador también mantienen una de las tasas más altas de jóvenes que no estudian ni trabajan (Ninis) de América Latina, 1 de cada 4 jóvenes se encuentra en esta condición y se mantenido constante durante la última década<d-cite key="EHPM"></d-cite>.
+<b>La inseguridad económica es otro factor que motiva a los jóvenes a ingresar a las pandillas.</b> La mayoría de los miembros están desempleados, el 70% proviene de hogares con ingresos familiares menores a $250<d-cite key="PANDILLAS"></d-cite>. El Salvador también mantienen una de las tasas más altas de jóvenes que no estudian ni trabajan (Ninis) de América Latina, 1 de cada 4 jóvenes se encuentra en esta condición y se ha mantenido constante durante la última década<d-cite key="EHPM"></d-cite>.
 
 <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/post_7/ninis.png">
 
