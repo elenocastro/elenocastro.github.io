@@ -18,6 +18,7 @@ bibliography: 2020-07-25-es-sostenible-la-caida-de-homicidios.bib
     </div>
 </div>
 
+
 <br/>
 <b>En el año 2019 El Salvador registró la tasa de homicidios más baja desde la guerra civil.</b> La tasa de homicidios por cien mil habitantes en El Salvador ha caído a 35 luego de alcanzar más de 100 en el 2015. Esta tasa es la más baja de las últimas décadas, superando incluso las tasas de homicidios en los años de la tregua entre pandillas en 2014. De continuar con la misma trayectoria el país podría tener una tasa incluso más baja que países como México, Guatemala y Colombia<d-cite key="WDI"></d-cite>. 
 
