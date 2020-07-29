@@ -1,5 +1,5 @@
 ---
-layout: distill_img
+layout: distill_img_big
 title: "Social development in El Salvador: a municipal look"
 description: Contrary to what many think El Salvador has made progress in recent years, however, development has been heterogeneous among the municipalities.
 date: 2020-07-16
@@ -13,7 +13,7 @@ image: /assets/img/post_5.jpg
 bibliography: 2020-07-14-Una-mirada-al-desarrollo-en-El-Salvador.bib
 ---
 
-Despite the great pessimism that people in El Salvador handle due to corruption problems and the lack of credibility of public institutions, the country has made progress in terms of social development in recent years.
+<p class="first-p"><span class="first-word">D</span>espite the great pessimism that people in El Salvador handle due to corruption problems and the lack of credibility of public institutions, the country has made progress in terms of social development in recent years.</p>
 
 This is something that we must highlight and mention, especially to deny those people who assure us that we are worse than ever. There is no doubt that there is still a long way to go and that there are challenges that have not been met in the best way in recent years, but we can highlight some progress.
 

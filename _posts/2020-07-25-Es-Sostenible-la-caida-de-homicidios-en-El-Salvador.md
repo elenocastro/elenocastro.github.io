@@ -1,5 +1,5 @@
 ---
-layout: distill
+layout: distill_img_short
 title: "¿Es sostenible la caída de homicidios en El Salvador?"
 description: Desde el 2015, el número de homicidios en El Salvador ha caído, sin embargo, los datos muestran que la caída podría no ser sostenible en el tiempo ¿a qué se debe esto?
 date: 2020-07-25
@@ -12,28 +12,15 @@ authors:
 image: /assets/img/post_7/post_7.jpeg
 bibliography: 2020-07-25-es-sostenible-la-caida-de-homicidios.bib
 ---
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/post_7/post_7.jpeg">
-    </div>
-</div>
+<p class="first-p"><span class="first-word">E</span>l Salvador en el año 2019 registró la tasa de homicidios más baja desde la guerra civil. La tasa de homicidios por cien mil habitantes en El Salvador ha caído a 35 luego de alcanzar más de 100 en el 2015. Esta tasa es la más baja de las últimas décadas, superando incluso las tasas de homicidios en los años de la tregua entre pandillas en 2014. De continuar con la misma trayectoria el país podría tener una tasa incluso más baja que países como México, Guatemala y Colombia<d-cite key="WDI"></d-cite>. </p>
 
+<img class="img-fluid" src="{{ site.baseurl }}/assets/img/post_7/homicidios_slv.png">
 
-<br/>
-<b>En el año 2019 El Salvador registró la tasa de homicidios más baja desde la guerra civil.</b> La tasa de homicidios por cien mil habitantes en El Salvador ha caído a 35 luego de alcanzar más de 100 en el 2015. Esta tasa es la más baja de las últimas décadas, superando incluso las tasas de homicidios en los años de la tregua entre pandillas en 2014. De continuar con la misma trayectoria el país podría tener una tasa incluso más baja que países como México, Guatemala y Colombia<d-cite key="WDI"></d-cite>. 
+<b>A pesar de la significativa caída en los homicidios los otros tipos de delitos no han disminuido.</b> La caída de homicidios que se viene registrando luego del pico en 2015 ha significado mayor seguridad para los salvadoreños. Sin embargo, los otros tipos de crímenes no marcan una tendencia a la baja. En el siguiente gráfico se puede observar claramente que algunos delitos como Hurtos, Robos y Extorsiones se mantienen en los mismo niveles en los últimos años e incluso con aumentos significativos para algunos meses, en cuanto delitos de Violaciones se han reportado de forma constante casi 200 casos mensuales desde el 2017<d-footnote>Se observa un incremento acelerado en los reportes de Violaciones en 2017 debido a un cambio en la forma de contabilizar los registros.</d-footnote>. En marzo del 2020 se registra una caída significativa que podría deberse a las medidas de confinamiento para combatir el COVID-19<d-cite key="PNC"></d-cite>.
 
-<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/post_7/homicidios_slv.png">
-
-<b>A pesar de la significativa caída en los homicidios los otros tipos de delitos no han disminuido.</b> La caída de homicidios que se viene registrando luego del pico en 2015 ha significado mayor seguridad para los salvadoreños. Sin embargo, los otros tipos de crímenes no marcan una tendencia a la baja. En el siguiente gráfico se puede observar claramente que algunos delitos como Hurtos, Robos y Extorsiones se mantienen en los mismo niveles en los últimos años e incluso con aumentos significativos para algunos meses. También se logra identificar que luego del 2017 el registro de Violaciones aumentó de forma acelerada y todavía se registran cerca de 200 casos mensuales desde ese año. En marzo del 2020 se registra una caída significativa que podría deberse a las medidas de confinamiento para combatir el COVID-19<d-cite key="PNC"></d-cite>.
+<img class="img-fluid" src="{{ site.baseurl }}/assets/img/post_7/delitos.png">
 
 Esta tendencia podría indicar que las estructuras criminales se mantienen y que continúan realizando sus actividades para mantener sus ingresos de forma habitual. Si bien la caída en los homicidios es un aspecto positivo para los salvadoreños, las estructuras criminales continúan siendo un peligro latente en especial cuando las medidas que mantienen los homicidios bajos cesen o ya no funcionen. 
-
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/post_7/delitos.png">
-    </div>
-</div>
-
 
 ### ¿La delincuencia es un problema de seguridad o un problema social?
 
@@ -45,10 +32,10 @@ Desde los gobiernos de Arena, la delincuencia se ha tratado como un problema de 
 
 <b>La inseguridad económica es otro factor que motiva a los jóvenes a ingresar a las pandillas.</b> La mayoría de los miembros están desempleados, el 70% proviene de hogares con ingresos familiares menores a $250<d-cite key="PANDILLAS"></d-cite>. El Salvador también mantienen una de las tasas más altas de jóvenes que no estudian ni trabajan (Ninis) de América Latina, 1 de cada 4 jóvenes se encuentra en esta condición y se ha mantenido constante durante la última década<d-cite key="EHPM"></d-cite>.
 
-<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/post_7/ninis.png">
+<img class="img-fluid" src="{{ site.baseurl }}/assets/img/post_7/ninis.png">
 
 <b>Se espera una fuerte contracción económica que deje sin empleo a miles de salvadoreños.</b> Tan solo al mes de abril el nivel de trabajadores formales ha caído a niveles del 2016, el equivalente a retroceder 4 años en generación de empleo, una situación especialmente dura para los jóvenes tomando en cuenta la gran cantidad que ingresan al mercado laboral cada año<d-cite key="ISSS"></d-cite>. Además, más de un millón de estudiantes están fuera de la escuela, esto disminuirá los niveles de aprendizaje especialmente para los más vulnerables y podría motivar la deserción escolar de muchos estudiantes.
 
-<img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/post_7/empleo_iss.png">
+<img class="img-fluid" src="{{ site.baseurl }}/assets/img/post_7/empleo_iss.png">
 
 <b>La caída de homicidios es un avance importante pero aún siguen otros retos. </b>Para mantener la seguridad de los salvadoreños y sobre todo para resolver de raíz las causas principales de las pandillas se deben crear políticas sociales que permita la incorporación de jóvenes al mercado laboral y que más estudiantes puedan terminar sus estudios. El presupuesto de educación se ha mantenido bajo si se compara con el resto de la región y los esfuerzos en generar oportunidades laborales para los más jóvenes no ha dado resultados. El nuevo gobierno debe propiciar oportunidades para los más vulnerables, para que la caída en los niveles de criminalidad sea sostenida a través del tiempo. La pandemia del COVID-19 por su parte deja otros retos importantes que podrían hacer retroceder los avances ya alcanzados, que podría motivar a que jóvenes sin empleo continúen realizando actos delictivos. En momentos difíciles se debe proteger a los más necesitados.

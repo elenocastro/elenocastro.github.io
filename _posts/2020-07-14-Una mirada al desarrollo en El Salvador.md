@@ -1,5 +1,5 @@
 ---
-layout: distill_img
+layout: distill_img_big
 title: "Desarrollo social en El Salvador: una mirada municipal"
 description: A contrario de lo que muchos opinan El Salvador ha tenido avances en los últimos años sin embargo el desarrollo ha sido heterogéneo entre los municipios.
 date: 2020-07-14
@@ -13,7 +13,7 @@ image: /assets/img/post_5.jpg
 bibliography: 2020-07-14-Una-mirada-al-desarrollo-en-El-Salvador.bib
 ---
 
-Pesé al gran pesimismo que maneja la gente de El Salvador debido a los problemas de corrupción y la poca credibilidad de las instituciones públicas, el país ha tenido avances en términos de desarrollo social en los últimos años. 
+<p class="first-p"><span class="first-word">P</span>ese al gran pesimismo que maneja la gente de El Salvador debido a los problemas de corrupción y la poca credibilidad de las instituciones públicas, el país ha tenido avances en términos de desarrollo social en los últimos años.</p> 
 
 Esto es algo que debemos de destacar y mencionar, sobre todo para desmentir aquellas personas que aseguran que estamos peor que nunca. No hay duda de que aún falta mucho camino por recorrer y que hay retos que no se atendieron de la mejor forma durante los últimos años, pero si podemos destacar algunos avances.
 
