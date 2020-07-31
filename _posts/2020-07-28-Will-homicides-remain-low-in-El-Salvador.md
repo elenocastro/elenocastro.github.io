@@ -12,7 +12,7 @@ authors:
 image: /assets/img/post_7/post_7.jpeg
 bibliography: 2020-07-25-es-sostenible-la-caida-de-homicidios.bib
 ---
-<p class="first-p"><span class="first-word">I</span>In 2019 El Salvador registered the lowest homicide rate since the civil war. The homicide rate per 100,000 residents in El Salvador has dropped to 35 after reaching more than 100 in 2015. This rate is the lowest in recent decades, even surpassing homicide rates in the years of the gang truce in 2014. If it continues with the same trajectory, the country could have an even lower rate than countries like Mexico, Guatemala and Colombia.<d-cite key="WDI"></d-cite>.</p>
+<p class="first-p"><span class="first-word">I</span>n 2019 El Salvador registered the lowest homicide rate since the civil war. The homicide rate per 100,000 residents in El Salvador has dropped to 35 after reaching more than 100 in 2015. This rate is the lowest in recent decades, even surpassing homicide rates in the years of the gang truce in 2014. If it continues with the same trajectory, the country could have an even lower rate than countries like Mexico, Guatemala and Colombia.<d-cite key="WDI"></d-cite>.</p>
 
 <img class="img-fluid" src="{{ site.baseurl }}/assets/img/post_7/homicidios_slv_eng.png">
 
