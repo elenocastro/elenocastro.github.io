@@ -46,13 +46,6 @@
     description:
     - 'Designed and solved exercises; taught and assisted groups of up to 35 students for the following courses: Mathematics II, Algebra I, Introduction to Economics, Microeconomics I, Microeconomics II, Strategic Planning, and Economics and Uncertainty'
 
-
-
-- title: Computer skills
-  type: list
-  contents:
-  - '○ <b>Programming languages:</b> Proficient in SAS, Python (libraries: pandas, geopandas, numpy, plotly, scikit-learn, regex), Stata, Tableau, Power BI and Excel; good knowledge of QGIS and Visual Basic for applications'
-
 - title: Leadership and Volunteering Activities
   type: table-no-bullets
   contents:
@@ -62,3 +55,8 @@
   - title: 'Fe y Alegría'
     year: '2014'
     description: 'Assisted with an annual campaign to raise funds; planned programs to increase environmental awareness in underprivileged schools in northern Argentina'
+
+- title: Computer skills
+  type: list
+  contents:
+  - '○ <b>Programming languages:</b> Proficient in SAS, Python (libraries: pandas, geopandas, numpy, plotly, scikit-learn, regex), Stata, Tableau, Power BI and Excel; good knowledge of QGIS and Visual Basic for applications'
