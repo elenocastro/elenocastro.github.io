@@ -2,7 +2,7 @@
 layout: page
 permalink: /resume/
 title: resume
-nav: resume
+nav: true
 ---
 
 <div class="cv">
