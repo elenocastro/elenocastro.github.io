@@ -1,5 +1,5 @@
 ---
-layout: page2
+layout: page3
 permalink: /resume/
 title: resume
 nav: true
