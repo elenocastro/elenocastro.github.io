@@ -10,6 +10,7 @@ authors:
     url: https://twitter.com/ElenoCastro
 
 image: /assets/img/post_5.jpg
+img: /assets/img/post_5.jpg
 bibliography: 2020-07-14-Una-mirada-al-desarrollo-en-El-Salvador.bib
 ---
 

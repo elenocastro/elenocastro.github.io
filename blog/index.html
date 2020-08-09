@@ -18,6 +18,12 @@ pagination:
   <ul class="post-list">
     {% for post in paginator.posts %}
       <li>
+        {% if post.image %}       
+        <div class="col-xs-12 col-sm-7 p-2 pt-2 pb-sm-2 pb-4 pl-sm-4" style="float: right; max-width:400px; max-height: 200px; overflow: hidden;">
+          <img class="img-fluid" src="{{ post.image }}">
+        </div>
+        {% endif %}
+
         <h3 style="font-family: 'Playfair Display', serif; text-align: left;"><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
         <p class="post-meta">{{ post.date | date: '%B %-d, %Y' }}</p>
         <p>{{ post.description }}</p>

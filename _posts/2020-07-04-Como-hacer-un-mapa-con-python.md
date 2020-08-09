@@ -10,6 +10,7 @@ authors:
     url: https://twitter.com/ElenoCastro
 
 image: /assets/img/post_3/mapa_4.png
+img: /assets/img/post_3/mapa_4.png
 
 ---
 
