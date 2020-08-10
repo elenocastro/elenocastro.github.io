@@ -26,7 +26,7 @@ pagination:
             <li>
                 <!--Just to add an image for each post-->
                 {% if post.image %}       
-                <div class="col-xs-8 col-sm-5 p-2 pt-2 pb-sm-2 pb-4 pl-sm-4" style="float: right; max-width:320px; max-height: 200px; overflow: hidden;">
+                <div class="col-xs-8 col-sm-5 p-2 pt-2 pb-sm-2 pb-4 pl-sm-4" style="float: right; max-width:340px; max-height: 200px; overflow: hidden;">
                 <img class="img-fluid" src="{{ post.image }}">
                 </div>
                 {% endif %}
