@@ -12,7 +12,7 @@ image: 'https://www.elenocastro.com/assets/img/prof_pic3.jpeg'
 
 url: # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
-last_updated: True # set to true if you want to display last updated in the footer
+last_updated: # set to true if you want to display last updated in the footer
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -79,6 +79,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  posts_spa:
+    output: true
+    permalink: /blog/:year/:title/
 
 news_limit: 5
 
