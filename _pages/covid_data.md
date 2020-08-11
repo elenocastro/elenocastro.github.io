@@ -30,8 +30,3 @@ nav: False
     <i class="fas fa-file-csv"></i>
     <a href="https://elenocastro.github.io/databases/covid_el_salvador/covid_el_salvador_municipios_timeserie.csv" target="blank">Time series of cases by municipality</a> 
 </h5>
-
-
-<ul style = "font-style: italic; text-align: left">
-    Data of municipalities collected since: 01/May/20. 
-</ul>
