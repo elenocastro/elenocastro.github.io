@@ -1,7 +1,7 @@
 ---
 layout: page2
 title: Casos de COVID a nivel municipal en El Salvador 
-description: Una mirada en gráficos a la evolución de casos de COVID en El Salvador
+description: Una mirada en gráficos a la evolución de casos de COVID en El Salvador.
 img: /assets/img/mapa_covid_casos.png
 image: /assets/img/mapa_covid_casos.png
 importance: 1
@@ -36,3 +36,11 @@ importance: 1
 <div class="caption">
     Gobierno de El Salvador (2020). Casos de COVID-19 en El Salvador. Obtenido de: https://covid19.gob.sv/  
 </div>
+
+***
+<h5 class="card-title text" style="font-family:'Playfair Display', serif; text-align: center">
+    <i class="fas fa-file-csv"></i>
+    <a href="https://www.elenocastro.com/covid_data_el_salvador/" target="blank">Descargar base de datos</a> 
+</h5>
+
+***

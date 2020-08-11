@@ -1,12 +1,11 @@
 ---
-layout: page
-permalink: /databases/
-title: databases
+layout: page3
+permalink: /covid_data_el_salvador/
+title: Time series of COVID Cases in El Salvador
 description: 
 nav: False
 ---
 
-***
 <h3 class="card-title text" style="font-family:'Playfair Display', serif"> Time series of COVID Cases in El Salvador </h3>
 ###### Data collected from the daily reports of the [Government of El Salvador](https://covid19.gob.sv/)
 
