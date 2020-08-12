@@ -12,7 +12,8 @@ authors:
     affiliations:
       name: Inter-American Development Bank
 
-
+image: /assets/img/educacion_no_come.jpg
+img: /assets/img/educacion_no_come.jpg
 ---
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">

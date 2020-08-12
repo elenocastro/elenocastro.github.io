@@ -35,6 +35,8 @@ _styles: >
     font-size: 16px;
   }
 
+image: /assets/img/reto_mesoamerica.jpg
+img: /assets/img/reto_mesoamerica.jpg
 ---
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">

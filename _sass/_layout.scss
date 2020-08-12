@@ -111,7 +111,7 @@
 }
 
 .draw-border {
-  @include btn-border-drawing(#58afd1, $theme-color, 4px, bottom, right);
+  @include btn-border-drawing($blue-color, $theme-color, 4px, bottom, right);
 }
 
 //=== Button styling, semi-ignore
