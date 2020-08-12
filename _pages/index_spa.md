@@ -17,7 +17,7 @@ pagination:
 <!--Buttom to spanish-->
 <a class="btn draw-border" href="https://www.elenocastro.com/blog/" style="text-align: right;">English</a>
 
-<!--div class="content-box clearfix"-->
+<div class="content-box clearfix">
   {% assign post_spa = paginator.posts %}
   {% for post in post_spa %}
   <article class="post_index">
@@ -36,4 +36,4 @@ pagination:
 
   {% include pagination.html %}
 
-<!--/div-->
+</div>
