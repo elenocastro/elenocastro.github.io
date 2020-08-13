@@ -12,12 +12,12 @@
 - title: Education
   type: table
   contents:
-  - title: Harvard Kennedy School - Master in Public Administration in International Development
+  - title: 'Harvard Kennedy School <br/> <span style= "font-weight: normal"><i> Master in Public Administration in International Development</i></span>'
     year: 2020 - now
     location: USA
     description:
     - 'Presidential Fellowship'
-  - title: Escuela Superior de Economía y Negocios – Bachelor's in Economics and Business
+  - title: 'Escuela Superior de Economía y Negocios <br/> <span style= "font-weight: normal"><i> Bachelor of Arts, Economics and Business </i></span>'
     year: 2012 - 2017
     location: El Salvador
     description:
