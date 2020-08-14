@@ -12,18 +12,17 @@
 - title: Education
   type: table
   contents:
-  - title: 'Harvard Kennedy School <br/> <span style= "font-weight: normal"><i> Master in Public Administration in International Development</i></span>'
+  - title: 'Harvard University, John F. Kennedy School of Government <br/> <span style= "font-weight: normal"><i>Master in Public Administration in International Development</i></span>'
     year: 2020 - now
-    location: USA
+    location: Cambridge, MA
     description:
-    - 'Presidential Fellowship'
+    - 'Awarded prestigious Harvard Presidential Scholarship'
   - title: 'Escuela Superior de Economía y Negocios <br/> <span style= "font-weight: normal"><i> Bachelor of Arts, Economics and Business </i></span>'
     year: 2012 - 2017
     location: El Salvador
     description:
-    - 'Magna Cum Laude'
-    - 'GPA: 9 (scale 10)'
-    - 'Scholarship for Academic Excellence'
+    - 'Overall GPA: 9/10, magna cum laude'
+    - 'Poma Foundation Scholarship for Academic Excellence in El Salvador'
 
 - title: Work Experience
   type: table
