@@ -94,6 +94,9 @@
   <d-bibliography src="{{ page.bibliography | prepend: '/assets/bibliography/' | relative_url }}">
   </d-bibliography>
 
+    <!-- read_more options -->
+    {% include read_more.html %}
+
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
     <d-article>
       {% if site.disqus_shortname and page.comments %}

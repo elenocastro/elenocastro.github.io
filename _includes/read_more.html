@@ -1,0 +1,45 @@
+
+
+<!--Buttom to spanish-->
+{% if page.spa %}
+  <d-article>
+    <h2 class="post-title" style="font-family: 'Playfair Display', serif; text-align: center">Continua leyendo</h2>
+    <div class="content-box clearfix">
+      {% assign sorted_post = site.posts_spa | sort: "date"| reverse | where_exp: "post", "post.title != page.title" %}
+      {% for post in sorted_post limit:3 %}
+      <article class="post_index">
+        {% if post.image %}
+          <a class="post-thumbnail" style="background-image: url({{ site.url }}{{ post.image }})" href="{{post.url | prepend: site.baseurl}}"></a>
+        {% else %}
+          <a class="post-thumbnail" style="background-image: url({{ site.image }})" href="{{post.url | prepend: site.baseurl}}"></a>
+        {% endif %}
+        <div class="post-content">
+          <h3 class="post-title" style="font-family: 'Playfair Display', serif; text-align: left"><a  href="{{ post.url | prepend: site.baseurl }}" style=" text-decoration: none;">{{ post.title }}</a></h3>
+          <p class="post-meta">{{ post.date | date: '%B %-d, %Y' }}&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </d-article>
+
+{% else %}
+<d-article>
+  <h2 class="post-title" style="font-family: 'Playfair Display', serif; text-align: center">Read this next</h2>
+  <div class="content-box clearfix">
+    {% assign sorted_post = site.posts | sort: "date"| reverse | where_exp: "post", "post.title != page.title" %}
+    {% for post in sorted_post limit:3 %}
+    <article class="post_index">
+      {% if post.image %}
+        <a class="post-thumbnail" style="background-image: url({{ site.url }}{{ post.image }})" href="{{post.url | prepend: site.baseurl}}"></a>
+      {% else %}
+        <a class="post-thumbnail" style="background-image: url({{ site.image }})" href="{{post.url | prepend: site.baseurl}}"></a>
+      {% endif %}
+      <div class="post-content">
+        <h3 class="post-title" style="font-family: 'Playfair Display', serif; text-align: left"><a  href="{{ post.url | prepend: site.baseurl }}" style=" text-decoration: none;">{{ post.title }}</a></h3>
+        <p class="post-meta">{{ post.date | date: '%B %-d, %Y' }}&nbsp;&nbsp;&nbsp;&nbsp;</p>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</d-article>
+{% endif %}

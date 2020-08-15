@@ -22,12 +22,12 @@
     location: El Salvador
     description:
     - 'Overall GPA: 9/10, magna cum laude'
-    - 'Poma Foundation Scholarship for Academic Excellence in El Salvador'
+    - 'Poma Foundation Scholarship for Academic Excellence'
 
 - title: Work Experience
   type: table
   contents:
-  - title: 'Inter-American Development Bank (IDB)<br/> <span style= "font-weight: normal"><i>Consultant at Education Division </i></span>'
+  - title: 'Inter-American Development Bank (IDB)<br/> <span style= "font-weight: normal"><i>Economic consultant at Education Division </i></span>'
     year: '2017 - 2020'
     location: El Salvador
     description:

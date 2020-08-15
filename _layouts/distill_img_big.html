@@ -66,7 +66,7 @@
     <div class="post distill">
       <div class="text-center">
         <d-title>
-          <h1 style="font-family: 'Playfair Display SC', serif">{{ page.title }}</h1>
+          <h1 class="post-title" style="font-family: 'Playfair Display SC', serif">{{ page.title }}</h1>
           <p style = "font-style: italic">{{ page.description }}</p>
         </d-title>
       </div>
@@ -102,7 +102,11 @@
 
   <d-bibliography src="{{ page.bibliography | prepend: '/assets/bibliography/' | relative_url }}">
   </d-bibliography>
+  
+  <!-- read_more options -->
+  {% include read_more.html %}
 
+  <!-- Commentarios -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
     <d-article>
       {% if site.disqus_shortname and page.comments %}
