@@ -2,8 +2,9 @@
 layout: distill_img_short
 title: "Will homicides remain low in El Salvador?"
 description: Since 2015, the number of homicides in El Salvador has fallen. However, the data shows that the fall may not be sustainable over time, why is this?
-date: 2020-07-28
+date: 2020-09-02
 comments: true
+
 
 authors:
   - name: Eleno Castro

@@ -5,7 +5,7 @@ description: Alrededor del 68% de los empleos en Mesoamérica están en riesgo d
 date: 2019-10-07
 redirect_to: https://blogs.iadb.org/educacion/es/educacionmesoamerica/
 spa: true
-
+published: "Inter-American Development Bank's Blogs"
 authors:
   - name: Karla Abrego
     url: 

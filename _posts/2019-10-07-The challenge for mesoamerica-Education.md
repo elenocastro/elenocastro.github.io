@@ -6,4 +6,5 @@ date: 2019-10-07
 redirect_to: https://blogs.iadb.org/educacion/en/thechallengeformesoamerica/
 image: /assets/img/reto_mesoamerica.jpg
 img: /assets/img/reto_mesoamerica.jpg
+published: "Inter-American Development Bank's Blogs"
 ---

@@ -5,7 +5,7 @@ description: Una de las razones por las que muchos niños y niñas no asisten a 
 date: 2018-09-07
 redirect_to: https://blogs.iadb.org/educacion/es/delaeducacionnosecome/
 spa: true
-
+published: "Inter-American Development Bank's Blogs"
 authors:
   - name: Eleno Castro
     url: https://twitter.com/ElenoCastro
