@@ -1,6 +1,6 @@
 ---
 layout: distill_img_short
-title: "¿Es sostenible la caída de homicidios en El Salvador?"
+title: "Sostener la caída de homicidios requiere inversión social"
 description: Desde el 2015, el número de homicidios en El Salvador ha caído, sin embargo, los datos muestran que la caída podría no ser sostenible en el tiempo ¿a qué se debe esto?
 date: 2020-09-02
 redirect_to: https://elfaro.net/es/202009/columnas/24772/Sostener-la-ca%C3%ADda-de-homicidios-requiere-inversi%C3%B3n-social.htm
