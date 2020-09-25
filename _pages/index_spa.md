@@ -7,12 +7,12 @@ pagination:
   enabled: true
   collection: posts_spa
   permalink: /page/:num/
-  per_page: 6
+  per_page: 4
   sort_field: date
   sort_reverse: true
   trail:
     before: 1 # The number of links before the current page
-    after:   # The number of links after the current page
+    after: 4 # The number of links after the current page
 ---
 <!--Buttom to spanish-->
 <a class="btn draw-border" href="https://www.elenocastro.com/blog/" style="text-align: right;">English</a>
