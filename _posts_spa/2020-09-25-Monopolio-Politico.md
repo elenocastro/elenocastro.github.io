@@ -4,6 +4,7 @@ title: "Monopolio político en El Salvador"
 description: El Salvador tuvo por varios años un duopolio político, sin embargo, eso ha terminado. ¿Qué consecuencias tiene esto para la democracia? 
 date: 2020-09-25
 comments: true
+spa: true
 
 authors:
   - name: Eleno Castro
@@ -16,7 +17,7 @@ bibliography: 2020-07-25-es-sostenible-la-caida-de-homicidios.bib
 
 En política también sucede este fenómeno, en muchos casos pocos partidos políticos son los únicos oferentes de candidatos y lastimosamente, aunque tu no simpatices, terminaras consumiendo el producto (es decir siendo gobernado por ellos). En el caso de duopolios como Pepsi-CocaCola la gente aún tiene la libertad de no consumir.
 
-El Salvador tuvo por varios años lo que llamaría un duopolio político, en el que dos partidos determinaban la oferta de funcionarios políticos (presidentes y diputados). Estos partidos podían darse el lujo de escoger funcionarios que no fueron capaces de ejercer sus cargos. Esto llevo sin duda a que muchos salvadoreños se sintieran desilusionados por la calidad de la política en el país. En el que uno tenía que escoger en el candidato menos malo.
+El Salvador tuvo por varios años lo que llamaría un duopolio político, en el que dos partidos determinaban la oferta de funcionarios políticos (presidentes y diputados). Estos partidos podían darse el lujo de escoger funcionarios que no fueron capaces de ejercer sus cargos. Esto llevo sin duda a que muchos salvadoreños se sintieran desilusionados por la calidad de la política en el país.
 
 Este fenómeno no es nada extraño, sucede en todas partes, incluso en las democracias más desarrolladas. Es normal que dos partidos o a lo sumo tres concentren la mayoría de votos y que los candidatos a funcionarios sean personas con pocas calificaciones. Usualmente el factor más relevante para ser candidato en este esquema es el amiguismo con las elites de los partidos y tener un grado de apoyo interno con las bases partidarias.
 
@@ -30,6 +31,6 @@ Adicionalmente, concentrar el poder le facilitará el uso de recursos del estado
 
 No bastará señalar los errores de la administración si no hay ninguna opción partidaria con posibilidades de ganar o absorber ese descontento social. Estamos en el peor escenario donde múltiples mini-partidos estarán desconcentrando la oposición política.
 
-Este fenómeno ha sido posible por la incapacidad de los partidos tradicionales de responder a las demandas sociales y fortalecer sus estructuras partidarias. Fueron incapaces de ver el descontento en sus votantes y de democratizar su partido.
+Este fenómeno ha sido posible por la incapacidad de los partidos tradicionales de responder a las demandas sociales y fortalecer sus estructuras partidarias. Los partidos fueron incapaces de ver el descontento en sus votantes y de democratizar su institución.
 
 Aún estamos a tiempo de que la gente reconozca que el nuevo orden político no es conveniente para mejorar la democracia y las instituciones del país. El poder no se concentra de forma arbitraria, somos los salvadoreños quienes le damos forma. Regresar a las viejas formas de poder tampoco es sostenible, los nuevos partidos políticos tienen la tarea de generar confianza en los salvadoreños y ser la competencia que obligue a mejorar a Nuevas Ideas.
