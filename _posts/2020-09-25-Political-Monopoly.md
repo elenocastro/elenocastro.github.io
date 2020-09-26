@@ -10,7 +10,6 @@ authors:
     url: https://twitter.com/ElenoCastro
 
 image: /assets/img/monopolio_politico.png
-bibliography: 2020-07-25-es-sostenible-la-caida-de-homicidios.bib
 ---
 <p class="first-p"><span class="first-word">I</span>n economics, monopolies, duopolies and oligopolies are studied a lot because in this case the market does not work properly. Monopolies (and their derivatives) occur when only one company is the only provider of a service or product in the market. What is the problem with this? Well, the company has the power to manage the price and quality of the product and since consumers have no other option but to buy from that company, they will end up consuming low quality goods at a high price.</p>
 
