@@ -10,7 +10,7 @@ authors:
   - name: Eleno Castro
     url: https://twitter.com/ElenoCastro
 
-image: /assets/img/monopolio_politico.png
+image: /assets/img/monopolio_politico2.png
 bibliography: 2020-07-25-es-sostenible-la-caida-de-homicidios.bib
 ---
 <p class="first-p"><span class="first-word">E</span>n economía, se estudia mucho los monopolios, duopolios y oligopolios porque en dicho caso el mercado no funciona correctamente. Los monopolios (y sus derivados) ocurren cuando solo una empresa es el único oferente de un servicio o producto en el mercado. ¿Cuál es el problema con esto? Pues que la empresa tiene el poder de manejar el precio y la calidad del producto y como los consumidores no tienen otra opción más que comprarle a esa empresa terminaran consumiendo bienes de baja calidad a un alto precio.</p>
