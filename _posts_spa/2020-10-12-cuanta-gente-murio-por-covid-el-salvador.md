@@ -4,7 +4,7 @@ title: "¿Cuántas personas han muerto realmente por COVID en El Salvador?"
 description: El número real de fallecimientos aumenta por encima de los datos oficiales, debido a subregistros de gente contagiada y por el exceso de ocupación de los hospitales públicos.
 date: 2020-10-12
 comments: true
-
+spa: true
 authors:
   - name: Eleno Castro
     url: https://twitter.com/ElenoCastro
