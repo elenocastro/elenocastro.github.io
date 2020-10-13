@@ -11,15 +11,15 @@ authors:
 
 image: /assets/img/post_covid_muertes/blog_post_muertes.jpeg
 ---
-<p class="first-p"><span class="first-word">L</span>a mitad del mes de julio se registraron aproximadamente 200 muertes diarias, un incremento del 60% con respecto al promedio de los 5 años anteriores <d-footnote>Información obtenida del Registro Nacional de Personas Naturales</d-footnote>. Sin embargo, al inicio de la cuarentena se veía una disminución de los registros. Puede deberse a un subregistro porque las oficinas de las alcaldías estaban cerradas y la gente en ese periodo simplemente no hice asentamiento de la defunción. </p>
+<p class="first-p"><span class="first-word">L</span>a mitad del mes de julio se registraron aproximadamente 200 muertes diarias, un incremento del 60% con respecto al promedio de los 5 años anteriores <d-footnote>Información obtenida del Registro Nacional de Personas Naturales</d-footnote>. Sin embargo, al inicio de la cuarentena se veía una disminución de los registros. Puede deberse a un subregistro porque las oficinas de las alcaldías estaban cerradas y la gente en ese periodo simplemente no hizo el asentamiento de la defunción (se deberia explorar la razón última de esa caída en los datos del RNPN). Durante la cuarentena algunos procesos se flexibilizaron y permitian no asentar a las personas en el tiempo usual.</p>
 
 <img class="img-fluid" src="{{ site.baseurl }}/assets/img/post_covid_muertes/muertes.png">
 
-### Hasta la mitad de septiembre había aproximadamente 2,000 muertes sospechosas por COVID, quienes por falta de pruebas no formaron parte de las cifras oficiales. Esto es el equivalente a un subregistro del 70% de los casos fallecidos. 
+### Hasta la mitad de septiembre había aproximadamente 2,000 muertes sospechosas por COVID, quienes por falta de pruebas no formaron parte de las cifras oficiales. Esto es el equivalente a un subregistro del 70% de los casos fallecidos. Se observa además que el pico de muertes sospechosas y de las oficiales no coinciden, lo que podría suponer un retrazo en el rastreo del COVID. 
 
 <img class="img-fluid" src="{{ site.baseurl }}/assets/img/post_covid_muertes/COVID_muertes.png">
 
-### Se reportaron más muertes por problemas cardiovasculares, neumonía y diabetes. La enfermedad con mayor incremento fue los reportes de neumonía, quienes reportaron aproximadamente 5 veces más casos de lo normal en el pico de la pandemia. Los datos del Registro Nacional de Personas Naturales no presentan un aumento en los casos de cáncer. Estos datos fueron extraídos de las causas reportadas por médicos y las causas no son excluyentes.  
+### Se reportaron más muertes por problemas cardiovasculares, neumonía y diabetes. Las muertes relacionadas por neumonía tuvieron un crecimiento más pronunciado, el RNPN registra aproximadamente 5 veces más casos de lo normal en el pico de la pandemia. En el caso de muertes por cancer, se reportaron apróximadamente 2 veces más casos de lo normal en el pico de la pandemia. Los datos no presentan un aumento en los casos de cáncer. Estos datos fueron extraídos de las causas reportadas por médicos y las causas no son excluyentes.  
 
 <img class="img-fluid" src="{{ site.baseurl }}/assets/img/post_covid_muertes/causas.png">
 
