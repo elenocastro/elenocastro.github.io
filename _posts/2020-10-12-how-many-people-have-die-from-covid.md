@@ -10,7 +10,7 @@ authors:
 
 image: /assets/img/post_covid_muertes/blog_post_muertes.jpeg
 ---
-<p class="first-p"><span class="first-word">I</span>n the middle of July, approximately 200 deaths were recorded per day, a 60% increase over the average of the previous 5 years. However, at the beginning of the quarantine there was a decrease in registrations<d-footnote>Information obtained from the National Registry of Natural Persons</d-footnote>. It may be due to an under-registration because the mayoral offices were closed and the people in that period simply did not register the death (the ultimate reason for this drop in the RNPN data should be explored). During the quarantine, some processes were made more flexible and allowed not to record deaths in the usual time.</p>
+<p class="first-p"><span class="first-word">I</span>n the middle of July, approximately 200 deaths were recorded per day, a 60% increase over the average of the previous 5 years<d-footnote>Information obtained from the National Registry of Natural Persons</d-footnote>. However, at the beginning of the quarantine there was a decrease in registrations. It may be due to an under-registration because the mayoral offices were closed and the people in that period simply did not register the death (the ultimate reason for this drop in the RNPN data should be explored). During the quarantine, some processes were made more flexible and allowed not to record deaths in the usual time.</p>
 
 <img class="img-fluid" src="{{ site.baseurl }}/assets/img/post_covid_muertes/muertes_eng.png">
 
