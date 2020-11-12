@@ -4,13 +4,13 @@ title: "¿Quiénes caerán en el sector informal de la economía?"
 description: La pandemia dejará a muchas personas sin trabajo formal, la mayoría de ellos es verán obligados a trabajar en el sector informal para llevar alimento a sus casas.
 date: 2020-11-07
 comments: true
-
+spa: true
 authors:
   - name: Eleno Castro
     url: https://twitter.com/ElenoCastro
 
-image: /assets/img/post_informalidad/post_informalidad.jpg
 bibliography: 2020-11-07-informalidad-covid.bib
+image: /assets/img/post_informalidad/post_informalidad.jpg
 ---
 <p class="first-p"><span class="first-word">L</span>a pandemia afectara de forma anormal la vida de las personas especialmente para aquellos que se verán obligados a dejar sus trabajos y entraran al sector informal. Antes de la pandemia la situación ya era preocupante, El Salvador es el segundo país de América Latina con la tasa de más alta de informalidad entre las personas viviendo en pobreza, cerca del 70% (solo superado por Honduras). Más 90% de estos trabajadores no tienen ningún tipo de asistencia social, la tasa más alta de la región (VOX, 2020).<d-cite key="VOX"></d-cite>. </p>
 
