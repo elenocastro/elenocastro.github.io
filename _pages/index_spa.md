@@ -15,7 +15,7 @@ pagination:
     after: 4 # The number of links after the current page
 ---
 <!--Buttom to spanish-->
-<a class="btn draw-border" href="https://www.elenocastro.com/blog/" style="text-align: right;">English</a>
+<a class="btn draw-border" href="{{ site.baseurl }}/blog/" style="text-align: right;">English</a>
 
 <div class="content-box clearfix">
   {% assign post_spa = paginator.posts %}
