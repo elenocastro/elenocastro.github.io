@@ -33,7 +33,7 @@ Por otro lado, la falta de acceso a internet no es el único factor que impide a
 
 Lastimosamente, deberíamos concluir que estos chicos no lograran terminar el año o que su aprendizaje no fue el adecuado durante la cuarentena. El Ministerio de Educación tiene el gran reto de que al regresar a clases estos estudiantes puedan retomar lo perdido. 
 
-### 3. Algunos no regresaran a clases
+### 3. Algunos no regresarán a clases
 Por otro lado, además de los bajos aprendizajes el COVID también podría afectar la inasistencia escolar, la cual ya era alta antes de la pandemia. De acuerdo con el mismo estudio del BID, se estimó que la inasistencia escolar podría aumentar en 17%, el equivalente a que 38 mil estudiantes<d-footnote>Previo a la crisis existían 230 mil jóvenes y niños fuera de la escuela</d-footnote> dejen la escuela. De los jóvenes afectados el 33% y 55% serán pobres y clase media baja. 
 
 El estudio señala dos razones del incremento de la inasistencia escolar. Por un lado, muchos jóvenes se verán obligados a dejar la escuela debido a que en sus hogares el ingreso caerá y por otro lado, se conoce que las modalidades virtuales tienen una mayor tasa de deserción escolar, algo que se puede evidenciar en las modalidades virtuales (de la educación flexible previo al crisis) del Ministerio de Educación donde la tasa de deserción alcanza hasta el 50% en algunos años.
