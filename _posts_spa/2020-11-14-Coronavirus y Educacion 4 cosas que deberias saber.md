@@ -14,7 +14,7 @@ image: /assets/img/post_educacion_pandemia/Pandemia_educacion.jpg
 ---
 <p class="first-p"><span class="first-word">L</span>a pandemia vino a empeorar muchos problemas sociales dejando a los países con grandes retos de políticas públicas. El caso de la educación no es diferente, los costos de esta crisis son muy graves y desiguales. En pocos días la mayoría de los sistemas educativos del mundo pasaron a ofrecer clases virtuales. Muchos estaban muy poco preparados para esta transición. El Salvador ya tenía grandes desafíos en su agenda digital y exclusión educativa previo la crisis. Si no se hace algo al respecto estos problemas podrían agravarse. </p>
 
-Luego de algunos meses con el virus sabemos algunas cosas sobre cómo ha afectado la pandemia a los sistemas educativos. Cosas que deberíamos saber para mejorar la educación en el futuro.
+Luego de algunos meses con el virus sabemos algunas cosas sobre cómo ha afectado la pandemia a los sistemas educativos. 
 
 ### 1.  Las modalidades virtuales no han sido efectivas para aprender
 
