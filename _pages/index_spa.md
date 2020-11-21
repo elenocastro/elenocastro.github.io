@@ -28,7 +28,9 @@ pagination:
     {% endif %}
     <div class="post-content">
       {% if post.published %}
-      <h6 style="color: #FF3636; text-align: left"><i> Publicado en {{ post.published }}</i></h6>
+      <span class="badge font-weight-bold red darken-1 text-uppercase align-middle" style="color: red">
+			{{ post.published }}
+			</span>
       {% endif %}
       <h3 class="post-title" style="font-family: 'Playfair Display', serif; text-align: left"><a  href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
       <p class="post-meta">{{ post.date | date: '%B %-d, %Y' }}&nbsp;&nbsp;&nbsp;&nbsp;</p>
