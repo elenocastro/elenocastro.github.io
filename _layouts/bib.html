@@ -111,6 +111,9 @@
     {% if entry.website %}
       <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Website</a>
     {% endif %}
+    {% if entry.press %}
+      <a class="press btn btn-sm z-depth-0" role="button">press</a>
+    {% endif %}
     </div>
 
     <!-- Hidden abstract block -->
@@ -119,5 +122,12 @@
       <p>{{ entry.abstract }}</p>
     </div>
     {% endif %}
+
+    {% if entry.press %}
+    <div class="press hidden">
+      <p>{{ entry.press }}</p>
+    </div>
+    {% endif %}
+
   </div>
 </div>
