@@ -54,7 +54,7 @@ Además, se sabe que los jóvenes que entran al mercado laboral en un mal moment
 
 Existen otras perdidas económicas debido a los bajos aprendizajes, Brookings <d-cite key="BRO"></d-cite> estimó que en Estados Unidos por cada cuatro meses de cuarentena se perderán ingresos en los próximos 45 años equivalentes al 12.7% PIB actual.
 
-Es sumamente grave si se considera que en El Salvador el impacto podría ser peor porque la población es más joven que en otros países desarrollados. Esto significaría que mayor parte la población se esta privando de oportunidades económicas en el futuro debido a la pandemia.
+Es sumamente grave si se considera que en El Salvador el impacto podría ser peor porque la población es más joven que en otros países desarrollados. Esto significaría que mayor parte de la población se esta privando de oportunidades económicas en el futuro debido a la pandemia.
 
 A pesar de estas graves consecuencias, aún estamos a tiempo de crear políticas y programas que nos permitan mitigar los efectos nocivos de la pandemia en la educación. El Salvador aún puede disminuir los efectos nocivos de la pandemia. Los nuevos planes educativas requerirán enfocarse en las poblaciones más afectadas y aquellos que no pudieron adaptarse a la modalidad educativa virtual.
 
