@@ -2,7 +2,7 @@
 layout: distill_img_short
 title: "Coronavirus and Education: 4 things You Should Know"
 description: The pandemic attempts to leave many young people and children out of school, the virtual modality will not be enough to mitigate the educational costs that El Salvador faces
-date: 2020-11-15
+date: 2020-12-20
 comments: true
 authors:
   - name: Eleno Castro
