@@ -2,7 +2,7 @@
 layout: distill_img_short
 title: "El líder siempre está sobrevalorado y se desestima a los seguidores"
 description: Usualmente se le presta demasiado atención a los lideres, dejando afuera del análisis social a los seguidores y el contexto.
-date: 2020-08-15
+date: 2021-01-18
 comments: true
 spa: true
 
