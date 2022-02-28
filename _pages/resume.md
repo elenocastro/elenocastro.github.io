@@ -2,7 +2,7 @@
 layout: page3
 permalink: /curriculum/
 title: curriculum
-nav: true
+nav: false
 ---
 
 <div class="cv">
