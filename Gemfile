@@ -9,4 +9,6 @@ group :jekyll_plugins do
     gem 'unicode_utils'
     gem 'jekyll-redirect-from'
     gem 'webrick'
+    gem 'jekyll-sitemap'
+    gem 'jekyll-paginate' 
 end
