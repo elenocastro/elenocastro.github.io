@@ -6,7 +6,7 @@ description:
 
 profile:
   align: right
-  image: prof_pic41.jpeg
+  image: prof_pic5.jpeg
   
 
 news: False

@@ -5,10 +5,10 @@
 title: Eleno Castro
 email: elenohernan@hotmail.com
 description:  # this means to ignore newlines until "url:"
- Eleno is a salvadoran economist, currently a candidate for the Master in Public Administration in International Development at Harvard Kennedy School.
+ Eleno is a salvadoran economist, currently a Economics PhD Student at The Johns Hopkins University.
 footer_text: >
   
-image: 'https://www.elenocastro.com/assets/img/prof_pic3.jpeg'
+image: 'https://www.elenocastro.com/assets/img/prof_pic5.jpeg'
 
 url: # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
