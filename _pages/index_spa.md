@@ -14,6 +14,7 @@ pagination:
     before: 1 # The number of links before the current page
     after: 4 # The number of links after the current page
 ---
+
 <!--Buttom to spanish-->
 <a class="btn draw-border" href="{{ site.baseurl }}/blog/" style="text-align: right;">English</a>
 
