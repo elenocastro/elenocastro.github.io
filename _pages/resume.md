@@ -1,11 +1,16 @@
 ---
 layout: page3
-permalink: /curriculum/
-title: curriculum
-nav: false
+permalink: /cv/
+title: cv
+nav: true
+cv_pdf: ElenoCastro_cv.pdf
 ---
 
 <div class="cv">
+	<header class="post-header">
+            <h1 class="post-title" style="font-family:'Playfair Display', serif">{{ page.title }} {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>{% endif %}</h1>
+            <p class="post-description">{{ page.description }}</p>
+	</header>
 	{% for entry in site.data.cv %}
 		<div class="card mt-3 p-3">
 			<h3 class="card-title" style="font-family:'Playfair Display', serif">{{ entry.title }}</h3>
