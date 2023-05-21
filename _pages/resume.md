@@ -1,7 +1,7 @@
 ---
 layout: page3
 permalink: /curriculum/
-title: curriculum
+title: cv
 nav: true
 cv_pdf: ElenoCastro_cv.pdf
 ---
