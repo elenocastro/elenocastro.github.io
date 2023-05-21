@@ -1,7 +1,7 @@
 ---
 layout: page3
-permalink: /cv/
-title: cv
+permalink: /curriculum/
+title: curriculum
 nav: true
 cv_pdf: ElenoCastro_cv.pdf
 ---
