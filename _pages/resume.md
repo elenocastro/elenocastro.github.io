@@ -52,7 +52,9 @@ cv_pdf: ElenoCastro_cv.pdf
 						<div class="row">
 							{% if content.year %}
 								<div class="col-xs-2 cl-sm-2 col-md-auto text-left" style="width: 90px;">
-									<span class="badge font-weight-bold red darken-1 text-uppercase align-middle" style="width: 90px; color: red">
+									<!--adding red box to cv bullets:-->
+									<!--<span class="badge font-weight-bold red darken-1 text-uppercase align-middle" style="width: 90px; color: red">-->
+									<span class="font-weight-bold white text-uppercase align-middle" style="width: 90px; color: gray">
 										{{ content.year }}
 									</span>
 								</div>
