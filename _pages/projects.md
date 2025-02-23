@@ -3,7 +3,7 @@ layout: page
 title: charts
 permalink: /charts/
 description: Interactive graphics to develop your own conclusions about social problems
-nav: true
+nav: False
 ---
 
 <div class="projects grid">

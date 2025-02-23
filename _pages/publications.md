@@ -4,9 +4,10 @@ permalink: /publications/
 title: publications
 description: Publications in reversed chronological order.
 years: [2022,2021,2020,2019,2018]
-years_wp: [2022]
+years_progress: []
+years_wp: [2025, 2022]
 years_pu: [2024]
-key_words: ['Journal Publications', 'Working papers', 'Policy papers']
+key_words: ['Journal Publications', 'Working papers', 'Works in Progress', 'Policy papers']
 nav: True
 ---
 
@@ -26,6 +27,10 @@ nav: True
       <h2 class="year">{{y}}</h2>
       {% bibliography -f papers -q @*[year~={{ y }}, key_words = {{ paper }}]* %}
     {% endfor %}
+  {% endif %}
+
+  {% if paper contains 'Progress' %}
+    {% bibliography -f papers -q @*[key_words = {{ paper }}]* %}
   {% endif %}
 
   {% if paper contains 'Journal' %}
