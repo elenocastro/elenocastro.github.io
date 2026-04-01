@@ -7,13 +7,24 @@ cv_pdf: ElenoCastro_cv.pdf
 ---
 
 <div class="cv">
-	<header class="post-header">
-            <h1 class="post-title" style="font-family:'Playfair Display', serif">cv {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>{% endif %}</h1>
-            <p class="post-description">{{ page.description }}</p>
+	<header class="post-header cv-header">
+            <div class="cv-header-main">
+                <h1 class="post-title cv-title">Curriculum Vitae</h1>
+                {% if page.description %}
+                <p class="post-description">{{ page.description }}</p>
+                {% endif %}
+            </div>
+            {% if page.cv_pdf %}
+            <a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="cv-download-link">
+                <i class="fas fa-file-pdf" aria-hidden="true"></i>
+                <span>Download CV (PDF)</span>
+            </a>
+            {% endif %}
 	</header>
 	{% for entry in site.data.cv %}
+        {% unless entry.title == "Conference Presentations" or entry.title == "Skills" or entry.title == "Grants" %}
 		<div class="card mt-3 p-3">
-			<h3 class="card-title" style="font-family:'Playfair Display', serif">{{ entry.title }}</h3>
+			<h3 class="card-title" style="font-family:'Source Serif 4', serif">{{ entry.title }}</h3>
 			<div>
 			{% if entry.type == "list" %}
 				<ul class="card-text font-weight-light list-group list-group-flush">
@@ -49,17 +60,15 @@ cv_pdf: ElenoCastro_cv.pdf
 				<ul class="card-text font-weight-light list-group list-group-flush">
 				{% for content in entry.contents %}
 					<li class="list-group-item">
-						<div class="row">
+						<div class="cv-entry">
 							{% if content.year %}
-								<div class="col-xs-2 cl-sm-2 col-md-auto text-left" style="width: 90px;">
-									<!--adding red box to cv bullets:-->
-									<!--<span class="badge font-weight-bold red darken-1 text-uppercase align-middle" style="width: 90px; color: red">-->
-									<span class="font-weight-bold white text-uppercase align-middle" style="width: 90px; color: gray">
+								<div class="cv-year-col">
+									<span class="cv-entry-year">
 										{{ content.year }}
 									</span>
 								</div>
 							{% endif %}
-							<div class="col-xs-10 cl-sm-10 col-md mt-2 mt-md-0">
+							<div class="cv-entry-content">
 								{% if content.title %}
 								<h6 class="title font-weight-bold ml-1 ml-md-4">{{content.title}}</h6>
 								{% endif %}
@@ -108,15 +117,15 @@ cv_pdf: ElenoCastro_cv.pdf
                 <ul class="card-text font-weight-light list-group list-group-flush">
                 {% for content in entry.contents %}
                     <li class="list-group-item">
-                        <div class="row">
+                        <div class="cv-entry">
                             {% if content.year %}
-                                <div class="col-xs-2 cl-sm-2 col-md-auto text-left" style="width: 90px;">
-                                    <span class="badge font-weight-bold red darken-1 text-uppercase align-middle" style="width: 90px;">
+                                <div class="cv-year-col">
+                                    <span class="cv-entry-year">
                                         {{ content.year }}
                                     </span>
                                 </div>
                             {% endif %}
-                            <div class="col-xs-10 cl-sm-10 col-md mt-2 mt-md-0">
+                            <div class="cv-entry-content">
                                 {% if content.title %}
                                 <h6 class="title font-weight-bold ml-1 ml-md-4">{{content.title}}</h6>
                                 {% endif %}
@@ -164,5 +173,6 @@ cv_pdf: ElenoCastro_cv.pdf
             {% endif %}
 			</div>
 		</div>
+        {% endunless %}
 	{% endfor %}
 </div>

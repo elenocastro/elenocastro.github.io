@@ -9,7 +9,7 @@ importance: 1
 ---
 *** 
 
-<h4 class="card-title text" style="font-family:'Playfair Display', serif">Casos por 100 mil habitantes </h4>
+<h4 class="card-title text" style="font-family:'Source Serif 4', serif">Casos por 100 mil habitantes </h4>
 
 {% include mapa_covid.html %}
 <div class="caption">
@@ -18,7 +18,7 @@ importance: 1
 
 ***
 
-<h4 class="card-title text" style="font-family:'Playfair Display', serif">Casos por semana</h4> 
+<h4 class="card-title text" style="font-family:'Source Serif 4', serif">Casos por semana</h4> 
 {% include municipios2.html %}
 {% include municipios3.html %}
 <div class="caption">
@@ -27,7 +27,7 @@ importance: 1
 
 ***
 
-<h4 class="card-title text" style="font-family:'Playfair Display', serif">Evolución de casos acumulados</h4>
+<h4 class="card-title text" style="font-family:'Source Serif 4', serif">Evolución de casos acumulados</h4>
 
 <br/>
 {% include municipios_line.html %}
@@ -38,7 +38,7 @@ importance: 1
 </div>
 
 ***
-<h5 class="card-title text" style="font-family:'Playfair Display', serif; text-align: center">
+<h5 class="card-title text" style="font-family:'Source Serif 4', serif; text-align: center">
     <i class="fas fa-file-csv"></i>
     <a href="https://www.elenocastro.com/covid_data_el_salvador/" target="blank">Descargar base de datos</a> 
 </h5>

@@ -2,55 +2,84 @@
   type: map
   contents:
   - name: Name
-    value: Eleno Castro
-  - name: Contact
-    value: elenohernan [at] hotmail [dot] com
+    value: Eleno H. Castro
+  - name: Affiliation
+    value: Johns Hopkins University, Department of Economics
+  - name: Email
+    value: '<a href="mailto:ecastr10@jhu.edu">ecastr10@jhu.edu</a>'
   - name: Languages
-    value:  English (fluent), Spanish (native)
-
+    value: English (proficient), Spanish (native)
 
 - title: Education
   type: table
   contents:
-  - title: 'Johns Hopkins University <br/> <span style= "font-weight: normal"><i>Ph.D. in Economics</i></span>'
-    year: 2022 - ....
-    location: Baltimore, MD
-  - title: 'Harvard University, John F. Kennedy School of Government <br/> <span style= "font-weight: normal"><i>Master in Public Administration in International Development</i></span>'
+  - title: 'Johns Hopkins University <br/> <span style="font-weight: normal"><i>Ph.D. in Economics</i></span>'
+    year: 2022 - current
+  - title: 'Johns Hopkins University <br/> <span style="font-weight: normal"><i>M.A. in Economics</i></span>'
+    year: 2022 - 2024
+  - title: 'Harvard University, John F. Kennedy School of Government <br/> <span style="font-weight: normal"><i>M.P.A. in International Development</i></span>'
     year: 2020 - 2022
-    location: Cambridge, MA
-  - title: 'Escuela Superior de Economía y Negocios <br/> <span style= "font-weight: normal"><i> Bachelor of Arts, Economics and Business </i></span>'
+  - title: 'Escuela Superior de Economía y Negocios <br/> <span style="font-weight: normal"><i>B.A. in Economics and Business</i></span>'
     year: 2012 - 2016
-    location: El Salvador
 
-- title: Honors
+- title: Awards and Achievements
+  type: table-no-bullets
+  contents:
+  - title: 'Ruchi and Rajeev Goel Fellowship <br/> <span style="font-weight: normal"><i>Johns Hopkins University</i></span>'
+    year: 2024
+  - title: 'Doctoral Fellowship <br/> <span style="font-weight: normal"><i>Johns Hopkins University</i></span>'
+    year: 2022
+  - title: 'Prize for Outstanding Second Year Policy Analysis <br/> <span style="font-weight: normal"><i>Harvard University</i></span>'
+    year: 2022
+  - title: 'Presidential Scholarship <br/> <span style="font-weight: normal"><i>Harvard University</i></span>'
+    year: 2020
+  - title: 'Magna Cum Laude <br/> <span style="font-weight: normal"><i>Escuela Superior de Economía y Negocios</i></span>'
+    year: 2016
+  - title: 'Scholarship for Academic Excellence <br/> <span style="font-weight: normal"><i>Escuela Superior de Economía y Negocios</i></span>'
+    year: 2012
+
+- title: Grants
+  type: table-no-bullets
+  contents:
+  - title: Johns Hopkins - American Enterprise Institute Grant
+    year: $50,000
+  - title: SNF Agora Institute
+    year: $10,000
+
+- title: Employment
   type: table
   contents:
-  - title: 'Doctoral Fellowship<br/> <span style= "font-weight: normal"><i>Johns Hopkins University</i></span>'
-    year: 2022
-  - title: 'Prize for Outstanding Second Year Policy Analysis<br/> <span style= "font-weight: normal"><i>Harvard University</i></span>'
-    year: 2022
-  - title: 'Presidential Scholarship<br/> <span style= "font-weight: normal"><i>Harvard University</i></span>'
-    year: 2020
-  - title: 'Magna Cum Laude<br/> <span style= "font-weight: normal"><i>Escuela Superior de Economía y Negocios</i></span>'
-    year: 2020
-  - title: 'Scholarship for Academic Excellence  <br/> <span style= "font-weight: normal"><i> Escuela Superior de Economía y Negocios</i></span>'
-    year: 2012 
+  - title: 'Johns Hopkins University <br/> <span style="font-weight: normal"><i>Teaching Assistant</i></span>'
+    year: 2024 - 2026
+  - title: 'World Bank <br/> <span style="font-weight: normal"><i>Consultant at the Research Department (DEC)</i></span>'
+    year: 2024 - 2025
+  - title: 'Harvard University <br/> <span style="font-weight: normal"><i>Research Assistant for Prof. Michela Carlana</i></span>'
+    year: 2021 - 2022
+  - title: 'World Bank <br/> <span style="font-weight: normal"><i>Summer Research Assistant for Daniel Li Chen and Lelys Dinarte</i></span>'
+    year: 2021
+  - title: 'Inter-American Development Bank <br/> <span style="font-weight: normal"><i>Economic Consultant at the Education Division</i></span>'
+    year: 2017 - 2020
+  - title: 'Millennium Challenge Corporation <br/> <span style="font-weight: normal"><i>Economic Consultant at Fomilenio II</i></span>'
+    year: 2016 - 2017
 
-- title: Work Experience
-  type: table
+- title: Conference Presentations
+  type: table-no-bullets
   contents:
-  - title: 'Harvard University - Malcolm Wiener Center for Social Policy <br/> <span style= "font-weight: normal"><i>Research Assistant</i></span>'
-    year: '2021 - 2022'
-    location: Cambridge, MA
-  - title: 'The World Bank<br/> <span style= "font-weight: normal"><i>Summer Research Assistant</i></span>'
-    year: '2021 - 2021'
-    location: Washington, DC
-  - title: 'Inter-American Development Bank<br/> <span style= "font-weight: normal"><i>Economic consultant at Education Division </i></span>'
-    year: '2017 - 2020'
-    location: El Salvador
-  - title: 'Millennium Challenge Corporation<br/> <span style= "font-weight: normal"><i>Economic consultant </i></span>'
-    year: '2016 - 2017'
-    location: El Salvador
-  - title: 'Escuela Superior de Economía y Negocios<br/> <span style= "font-weight: normal"><i>Teaching Assistant</i></span>'
-    year: '2013 - 2017'
-    location: El Salvador
+  - title: Center for Global Development; Midwest Economics Association; E.P.I.C. at Johns Hopkins
+    year: 2026
+  - title: 'NBER: The Economics of Firearm Markets, Crime, and Gun Violence; Johns Hopkins Brownbag Seminar; Georgetown University Conference on Political Economy and Development; Southern Economic Association'
+    year: 2025
+  - title: LACEA-LAMES Annual Meeting; Johns Hopkins Brownbag Seminar
+    year: 2024
+  - title: Comparative and International Education Society Annual Meeting; Johns Hopkins Brownbag Seminar
+    year: 2023
+  - title: North American Summer Meeting of the Econometric Society; American Political Science Association Annual Meeting
+    year: 2022
+
+- title: Skills
+  type: map
+  contents:
+  - name: Languages
+    value: English (proficient), Spanish (native)
+  - name: Coding
+    value: Python, Stata, R

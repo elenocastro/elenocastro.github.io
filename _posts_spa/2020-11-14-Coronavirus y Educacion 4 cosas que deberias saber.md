@@ -63,11 +63,11 @@ A pesar de estas graves consecuencias, aún estamos a tiempo de crear políticas
 
 Para conocer más sobre el tema, recomiendo leer la serie de Hablemos de Política Educativa del BID:
 
-- <h6 class="card-title text" style="font-family:'Playfair Display', serif; text-align: left">
+- <h6 class="card-title text" style="font-family:'Source Serif 4', serif; text-align: left">
     <a href="https://publications.iadb.org/publications/spanish/document/Hablemos-de-politica-educativa-en-America-Latina-y-el-Caribe-1-Educacion-mas-alla-del-COVID-19.pdf" target="blank">Hablemos de política educativa en América Latina y el Caribe #1: Educación más allá del COVID-19</a> 
 
-- <h6 class="card-title text" style="font-family:'Playfair Display', serif; text-align: left">
+- <h6 class="card-title text" style="font-family:'Source Serif 4', serif; text-align: left">
     <a href="https://publications.iadb.org/publications/spanish/document/Hablemos-de-politica-educativa-en-America-Latina-y-el-Caribe-2-De-la-educacion-a-distancia-a-la-hibrida-4-elementos-clave-para-hacerla-realidad.pdf" target="blank">Hablemos de política educativa en América Latina y el Caribe #2: De la educación a distancia a la híbrida: 4 elementos clave para hacerla realidad</a> 
 
-- <h6 class="card-title text" style="font-family:'Playfair Display', serif; text-align: left">
+- <h6 class="card-title text" style="font-family:'Source Serif 4', serif; text-align: left">
     <a href="https://publications.iadb.org/publications/spanish/document/Hablemos-de-Politica-Educativa-3-Una-decada-perdida--Los-costos-educativos-de-la-crisis-sanitaria-en-America-Latina-y-el-Caribe.pdf" target="blank">Hablemos de política educativa #3: ¿Una década perdida?: Los costos educativos de la crisis sanitaria en América Latina y el Caribe</a> 

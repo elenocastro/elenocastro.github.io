@@ -15,11 +15,11 @@
   {% endif %}
   </div>-->
 
-  <div id="{{entry.key}}" class="col-sm-10">
+  <div id="{{entry.key}}" class="col-12">
     {% if entry.type == "thesis" %}
       {{reference}}
     {% else %}
-      <div class="title" style="font-family:'Playfair Display', serif">{{entry.title}}</div>
+      <div class="title" style="font-family:'Source Serif 4', serif">{{entry.title}}</div>
       <div class="author">
         {% for author in entry.author_array %}
           {% if forloop.length == 1 %}
@@ -55,13 +55,31 @@
       </div>
 
       <div class="periodical">
-      {% if entry.type == "article" %}
-        <em>{{entry.journal}}</em>
-      {% elsif entry.type == "inproceedings" %}
-        <em>In {{entry.booktitle}}</em>
+      {% assign has_meta = false %}
+      {% assign show_year = true %}
+      {% if entry.key_words == "Working papers" or entry.key_words == "Works in Progress" %}
+        {% assign show_year = false %}
       {% endif %}
-      {% if entry.year %}
-        {{entry.year}}
+      {% if entry.type == "article" and entry.journal != blank %}
+        <span class="venue">{{entry.journal}}</span>
+        {% assign has_meta = true %}
+      {% elsif entry.type == "inproceedings" and entry.booktitle != blank %}
+        <span class="venue">In {{entry.booktitle}}</span>
+        {% assign has_meta = true %}
+      {% endif %}
+      {% if entry.year and show_year %}
+        {% if has_meta %} {{entry.year}}{% else %}{{entry.year}}{% endif %}
+        {% assign has_meta = true %}
+      {% endif %}
+      {% if entry.status %}
+        {% if has_meta %} &middot; {% endif %}
+        <span class="status">
+          {% if entry.status contains "Quarterly Journal of Economics" %}
+            {{ entry.status | replace: "Quarterly Journal of Economics", '<span class="venue">Quarterly Journal of Economics</span>' }}
+          {% else %}
+            {{entry.status}}
+          {% endif %}
+        </span>
       {% endif %}
       </div>
     {% endif %}

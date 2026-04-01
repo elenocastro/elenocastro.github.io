@@ -1,9 +1,9 @@
 ---
 layout: page
-permalink: /publications/
-title: publications
-description: Research publications in reversed chronological order.
-key_words: ['Journal Publications', 'Working papers', 'Works in Progress']
+permalink: /policy-papers/
+title: policy papers
+description: Policy papers in reversed chronological order.
+key_words: ['Policy papers']
 nav: True
 hide_page_header: true
 ---

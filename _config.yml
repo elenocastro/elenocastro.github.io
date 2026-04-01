@@ -5,7 +5,7 @@
 title: Eleno Castro
 email: elenohernan@hotmail.com
 description:  # this means to ignore newlines until "url:"
- Eleno is a salvadoran economist, currently a Economics PhD Student at The Johns Hopkins University.
+ Salvadoran economist and Ph.D. student in Economics at Johns Hopkins University, with research interests in education, crime, and economic development.
 footer_text: >
   
 image: 'https://www.elenocastro.com/assets/img/prof_pic5.jpeg'
@@ -38,6 +38,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: # your GitHub user name
 twitter_username: elenocastro # your Twitter handle
 linkedin_username: elenocastro # your LinkedIn user name
+cv_pdf: ElenoCastro_cv.pdf
 scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
@@ -61,7 +62,7 @@ permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
-  enabled: True
+  enabled: False
 
 # Comments
 disqus_shortname: https-elenocastro-github-io

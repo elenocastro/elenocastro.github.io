@@ -6,17 +6,11 @@ description:
 
 profile:
   align: right
-  image: prof_pic5.jpeg
+  image: prof_pic6.jpeg
   
 
 news: False
 social: true
 ---
 
-I am a PhD student in economics at Johns Hopkins University, my main research interest are economics of education, crime, and economic development. Prior to my doctoral studies, I completed a Master's in International Development at the Harvard Kennedy School, I've also worked as an economic consultant for organizations such as the World Bank, the Inter-American Development Bank, and the Millennium Challenge Corporation at FOMILENIO II.
-
-***
-
-Soy estudiante de doctorado en economía en la Universidad Johns Hopkins, previamente hice mi maestria en Desarrollo Internacional en Harvard Kennedy School. Mis intereses de investigación son economía de la educación, crimen y desarrollo económico. He sido consultor económico del Banco Mundial, Banco Interamericano de Desarrollo y de Millennium Challenge Corporation en FOMILENIO II.
-
-
+I am a Ph.D. student in Economics at Johns Hopkins University. My research focuses on the economics of education, crime, and economic development. Before starting my doctoral studies, I earned a Master in Public Administration in International Development from the Harvard Kennedy School. I have also worked in research and consulting roles with the World Bank, the Inter-American Development Bank, the Millennium Challenge Corporation, and Harvard University's Malcolm Wiener Center for Social Policy.
