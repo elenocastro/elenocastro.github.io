@@ -13,29 +13,39 @@
 - title: Education
   type: table
   contents:
-  - title: 'Johns Hopkins University <br/> <span style="font-weight: normal"><i>Ph.D. in Economics</i></span>'
-    year: 2022 - current
-  - title: 'Johns Hopkins University <br/> <span style="font-weight: normal"><i>M.A. in Economics</i></span>'
+  - title: Johns Hopkins University
+    subtitle: Ph.D. in Economics
+    year: 2022 - now
+  - title: Johns Hopkins University
+    subtitle: M.A. in Economics
     year: 2022 - 2024
-  - title: 'Harvard University, John F. Kennedy School of Government <br/> <span style="font-weight: normal"><i>M.P.A. in International Development</i></span>'
+  - title: Harvard University, John F. Kennedy School of Government
+    subtitle: M.P.A. in International Development
     year: 2020 - 2022
-  - title: 'Escuela Superior de Economía y Negocios <br/> <span style="font-weight: normal"><i>B.A. in Economics and Business</i></span>'
+  - title: Escuela Superior de Economía y Negocios
+    subtitle: B.A. in Economics and Business
     year: 2012 - 2016
 
 - title: Awards and Achievements
   type: table-no-bullets
   contents:
-  - title: 'Ruchi and Rajeev Goel Fellowship <br/> <span style="font-weight: normal"><i>Johns Hopkins University</i></span>'
+  - title: Ruchi and Rajeev Goel Fellowship
+    subtitle: Johns Hopkins University
     year: 2024
-  - title: 'Doctoral Fellowship <br/> <span style="font-weight: normal"><i>Johns Hopkins University</i></span>'
+  - title: Doctoral Fellowship
+    subtitle: Johns Hopkins University
     year: 2022
-  - title: 'Prize for Outstanding Second Year Policy Analysis <br/> <span style="font-weight: normal"><i>Harvard University</i></span>'
+  - title: Prize for Outstanding Second Year Policy Analysis
+    subtitle: Harvard University
     year: 2022
-  - title: 'Presidential Scholarship <br/> <span style="font-weight: normal"><i>Harvard University</i></span>'
+  - title: Presidential Scholarship
+    subtitle: Harvard University
     year: 2020
-  - title: 'Magna Cum Laude <br/> <span style="font-weight: normal"><i>Escuela Superior de Economía y Negocios</i></span>'
+  - title: Magna Cum Laude
+    subtitle: Escuela Superior de Economía y Negocios
     year: 2016
-  - title: 'Scholarship for Academic Excellence <br/> <span style="font-weight: normal"><i>Escuela Superior de Economía y Negocios</i></span>'
+  - title: Scholarship for Academic Excellence
+    subtitle: Escuela Superior de Economía y Negocios
     year: 2012
 
 - title: Grants
@@ -49,17 +59,23 @@
 - title: Employment
   type: table
   contents:
-  - title: 'Johns Hopkins University <br/> <span style="font-weight: normal"><i>Teaching Assistant</i></span>'
+  - title: Johns Hopkins University
+    subtitle: Teaching Assistant
     year: 2024 - 2026
-  - title: 'World Bank <br/> <span style="font-weight: normal"><i>Consultant at the Research Department (DEC)</i></span>'
-    year: 2024 - 2025
-  - title: 'Harvard University <br/> <span style="font-weight: normal"><i>Research Assistant for Prof. Michela Carlana</i></span>'
+  - title: World Bank
+    subtitle: Consultant at the Research Department (DEC)
+    year: 2024 - 2024
+  - title: Harvard University
+    subtitle: Research Assistant for Prof. Michela Carlana
     year: 2021 - 2022
-  - title: 'World Bank <br/> <span style="font-weight: normal"><i>Summer Research Assistant for Daniel Li Chen and Lelys Dinarte</i></span>'
+  - title: World Bank
+    subtitle: Summer Research Assistant for Daniel Li Chen and Lelys Dinarte
     year: 2021
-  - title: 'Inter-American Development Bank <br/> <span style="font-weight: normal"><i>Economic Consultant at the Education Division</i></span>'
+  - title: Inter-American Development Bank
+    subtitle: Economic Consultant at the Education Division
     year: 2017 - 2020
-  - title: 'Millennium Challenge Corporation <br/> <span style="font-weight: normal"><i>Economic Consultant at Fomilenio II</i></span>'
+  - title: Millennium Challenge Corporation
+    subtitle: Economic Consultant at Fomilenio II
     year: 2016 - 2017
 
 - title: Conference Presentations

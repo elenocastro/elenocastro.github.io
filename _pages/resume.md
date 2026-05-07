@@ -68,11 +68,14 @@ cv_pdf: ElenoCastro_cv.pdf
 									</span>
 								</div>
 							{% endif %}
-							<div class="cv-entry-content">
-								{% if content.title %}
-								<h6 class="title font-weight-bold ml-1 ml-md-4">{{content.title}}</h6>
-								{% endif %}
-								{% if content.description %}
+								<div class="cv-entry-content">
+									{% if content.title %}
+									<h6 class="title cv-entry-title ml-1 ml-md-4">{{ content.title }}</h6>
+									{% endif %}
+									{% if content.subtitle %}
+									<div class="cv-entry-subtitle ml-1 ml-md-4">{{ content.subtitle }}</div>
+									{% endif %}
+									{% if content.description %}
 									<ul class="items">
 										{% for item in content.description %}
 										    <li>
@@ -125,11 +128,14 @@ cv_pdf: ElenoCastro_cv.pdf
                                     </span>
                                 </div>
                             {% endif %}
-                            <div class="cv-entry-content">
-                                {% if content.title %}
-                                <h6 class="title font-weight-bold ml-1 ml-md-4">{{content.title}}</h6>
-                                {% endif %}
-                                {% if content.description %}
+	                            <div class="cv-entry-content">
+	                                {% if content.title %}
+	                                <h6 class="title cv-entry-title ml-1 ml-md-4">{{ content.title }}</h6>
+	                                {% endif %}
+	                                {% if content.subtitle %}
+	                                <div class="cv-entry-subtitle ml-1 ml-md-4">{{ content.subtitle }}</div>
+	                                {% endif %}
+	                                {% if content.description %}
                                     <ul class="items">
                                         {% for item in content.description %}
                                             <li style="list-style-type: none;">

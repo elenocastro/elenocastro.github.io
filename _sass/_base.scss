@@ -140,6 +140,7 @@ a, table.table a {
   .table,
   .list-group-item,
   .title,
+  .cv-entry-subtitle,
   .item-title,
   .item,
   .subitem {
@@ -149,6 +150,12 @@ a, table.table a {
   .card-title,
   .title {
     color: $grey-color-dark;
+  }
+
+  .card-title {
+    font-size: 1.35rem;
+    font-weight: 500;
+    margin-bottom: 0.75rem;
   }
 
   .list-group-item {
@@ -185,6 +192,21 @@ a, table.table a {
 .cv-entry-content {
   flex: 1 1 auto;
   min-width: 0;
+}
+
+.cv-entry-title {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.35;
+  margin-bottom: 0.05rem;
+}
+
+.cv-entry-subtitle {
+  color: gray;
+  font-size: 0.95rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.35;
 }
 
 .contact-icon .cv-link {
