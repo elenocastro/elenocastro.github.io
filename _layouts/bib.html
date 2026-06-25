@@ -57,7 +57,7 @@
       <div class="periodical">
       {% assign has_meta = false %}
       {% assign show_year = true %}
-      {% if entry.key_words == "Working papers" or entry.key_words == "Works in Progress" %}
+      {% if entry.key_words == "Working Papers" or entry.key_words == "Works in Progress" %}
         {% assign show_year = false %}
       {% endif %}
       {% if entry.type == "article" and entry.journal != blank %}

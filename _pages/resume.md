@@ -70,10 +70,10 @@ cv_pdf: ElenoCastro_cv.pdf
 							{% endif %}
 								<div class="cv-entry-content">
 									{% if content.title %}
-									<h6 class="title cv-entry-title ml-1 ml-md-4">{{ content.title }}</h6>
+									<h6 class="title cv-entry-title">{{ content.title }}</h6>
 									{% endif %}
 									{% if content.subtitle %}
-									<div class="cv-entry-subtitle ml-1 ml-md-4">{{ content.subtitle }}</div>
+									<div class="cv-entry-subtitle">{{ content.subtitle }}</div>
 									{% endif %}
 									{% if content.description %}
 									<ul class="items">
@@ -130,10 +130,10 @@ cv_pdf: ElenoCastro_cv.pdf
                             {% endif %}
 	                            <div class="cv-entry-content">
 	                                {% if content.title %}
-	                                <h6 class="title cv-entry-title ml-1 ml-md-4">{{ content.title }}</h6>
+	                                <h6 class="title cv-entry-title">{{ content.title }}</h6>
 	                                {% endif %}
 	                                {% if content.subtitle %}
-	                                <div class="cv-entry-subtitle ml-1 ml-md-4">{{ content.subtitle }}</div>
+	                                <div class="cv-entry-subtitle">{{ content.subtitle }}</div>
 	                                {% endif %}
 	                                {% if content.description %}
                                     <ul class="items">
