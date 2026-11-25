@@ -85,6 +85,12 @@ find . -maxdepth 1 ! -name '_site' ! -name '.git' ! -name 'CNAME' ! -name '.giti
 mv _site/* .
 rm -R _site/
 
+# Keep the citation workflow on the default branch where its schedule runs.
+CITATION_WORKFLOW=.github/workflows/update-scholar-citations.yml
+if [[ "$DEPLOY_BRANCH" == "master" ]] && git cat-file -e "$SRC_BRANCH:$CITATION_WORKFLOW" 2>/dev/null; then
+  git checkout "$SRC_BRANCH" -- "$CITATION_WORKFLOW"
+fi
+
 # Push to DEPLOY_BRANCH
 git add -fA
 git commit --allow-empty -m "$(git log -1 --pretty=%B) [ci skip]"

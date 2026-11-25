@@ -1,0 +1,39 @@
+name: Update Google Scholar citations
+
+on:
+  schedule:
+    - cron: '27 12 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency: scholar-citations
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: source
+      - name: Read Google Scholar counts
+        run: python3 .github/scripts/update-scholar-citations.py "$RUNNER_TEMP/scholar-citations.json"
+      - name: Publish the citation data
+        shell: bash
+        run: |
+          remote_branch=$(git ls-remote origin refs/heads/citation-counts)
+          if [[ -n "$remote_branch" ]]; then
+            git fetch origin refs/heads/citation-counts
+            git switch --detach FETCH_HEAD
+          else
+            git switch --orphan citation-counts
+          fi
+          cp "$RUNNER_TEMP/scholar-citations.json" scholar-citations.json
+          git add -- scholar-citations.json
+          if git diff --cached --quiet; then exit 0; fi
+          git -c user.name=github-actions[bot] \
+              -c user.email=41898282+github-actions[bot]@users.noreply.github.com \
+              commit -m 'Refresh Google Scholar citations'
+          git push origin HEAD:refs/heads/citation-counts

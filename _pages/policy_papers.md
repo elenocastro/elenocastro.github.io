@@ -6,6 +6,7 @@ description: Policy papers in reversed chronological order.
 key_words: ['Policy papers']
 nav: True
 hide_page_header: true
+coauthor_credit: true
 ---
 
 <div class="publications">

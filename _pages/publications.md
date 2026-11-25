@@ -6,6 +6,7 @@ description: Research publications in reversed chronological order.
 key_words: ['Journal Publications', 'Working Papers', 'Works in Progress']
 nav: True
 hide_page_header: true
+coauthor_credit: true
 ---
 
 <div class="publications">
@@ -16,3 +17,5 @@ hide_page_header: true
 {% endfor %}
 
 </div>
+
+<script src="{{ '/assets/js/scholar-citations.js' | relative_url }}" defer></script>
